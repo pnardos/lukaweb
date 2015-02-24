@@ -1,289 +1,223 @@
-// Header --------------
+/* Header */
 header {
- @include clearfix;
- padding: 0;
-} //header
+    @include clearfix;
+    width: 100%;
+}
 
-// Lukaduka Logo --------------------
-.logo {
- display: inline-block;
- float: left;
- margin: 1.3rem 0 0 0;
-} // logo
-
-// Hero -------------------------
+/* Hero area */
 .hero {
- @include clearfix;
- 
- .banner {
-    padding: 5% 0;
-	border: {
-      top    : none; // stroke 
-      bottom : 1px solid $lightergray; // stroke
-    }
-	background-color: $white; // layer fill content
-	@include box-shadow(inset 0 -3px 3px rgba(214,214,214,.16)); // inner shadow
+    background: url(../images/shopping-606993_1920.png) 0 0 no-repeat;
+    width: auto;
+    height: 53.4rem;
     text-align: center;
-  
-    h1 {
-     font-family: $font-secondary;
-     color: $orange;
-     font-weight: 300;
-     font-size: 2.5rem;
-     margin: 0;
-     padding: 0;
-    } //banner h1
-    h2 {
-     font-family: $font-secondary;
-     color: $orange;
-     font-weight: 300;
-     font-size: 2.5rem;
-     margin: 0;
-     padding: 0;
-    } //banner h2
-    .banner-signup {
-     @include border-radius; // border radius
-     @include background-clip(padding-box); // prevents bg color from leaking outside the border
-     background-color: $green; // layer fill content
-     font-family: $font-secondary;
-     font-weight: 300;
-     color: $white;
-     font-size: 1.8rem;
-     padding: 1.2% 9%;
-     margin: 5% auto 0 auto;
-     display: inline-block;
-    }
+    padding:0 0;
+    color: $white;
+}
 
- } //banner
-} //hero
-
-// About Us ----------------------
-.about-us {
- margin: 130px auto 5rem auto;
- width: 60rem;
- @include clearfix;
- .layout {
-  @include clearfix;
-  h1 {
-   margin: 8rem 0;
-   font-family: $font-secondary;
-   font-weight: 500;
-   font-size: 3.3rem;
-   width: 20%;
-   float: left;
-  } //h1
-  
-  p {
-   display: block;
-   float: right;
-   width: 58%;
-  } //paragraph
- } //layout
-} //About Us
-
-.why {
- @extend .about-us;
- margin: {
-   top: 0;
-   bottom: 0;
- }
- .layout {
-  h1 {
-   margin: 0;
-  } //h1
- } //layout
-} //why section
-
-// Features ----------------------------
-// Facebook shop -----------------------
-.features {
- width: 60rem;
- margin: 0 auto;
- .layout {
-  .facebook-shop {
-   @include clearfix;
-   margin: 0 0 4rem 0;
-   article {
-    float: left;
-    width: 48%;
-   }
-   img {
-    float: right;
-   } //Img
-   p {
-    width: 25rem;
-    display: block;
-    float: left;
-    color: lighten($mediumgray, 12);
-   } //paragraph
-  } //facebook shop
-  
-  .pos {
-   @extend .facebook-shop;
-   article {
-    float: right;
-   }
-   img {
-    float: left;
-   } //Img
-   p {
-    width: 25rem;
-    display: block;
-    float: left;
-   } //paragraph
-  } //POS
-  
-  .backend {
-   @extend .facebook-shop;
-  } //Dashboard
-  
-  .reports {
-   @extend .pos;
-  } //Reports
-  
-  .free {
-   @extend .facebook-shop;
-  } //Free shop set up
-  
-  .tested {
-   @extend .pos;
-  } //Tested server side code
-  
- } //layout
-} //Features
-
-// Get Started ---------------------------
-.get-started {
- width: 60rem;
- margin: 0 auto;
- text-align: center;
- 
- ul {
-  margin: 0;
-  padding: 0;
-  
-   li {
-    color: lighten($mediumgray, 12);
-   a {
-    color: $green;
-    font-family: $font-primary;
-    border-bottom: 2px solid $green;
-   } //link
-   span {
-    display: block;
-    width: 1px;
-    height: 7rem;
-    border: 1px solid $green;
-    margin: 1rem auto 0 auto;
-   } //span
-    i {
-     @include border-radius(0.4rem);
-     border: 0.4rem solid $green;
-     width: 0.1rem;
-     height: 0.4rem;
-     line-height: 0.4rem;
-     display: block;
-     margin: 0 auto;
-    } //circle
-  } //list
- } //ul
-} //Get started
-
-.uses {
- @include clearfix;
- 
- h1 {
-  text-align: center;
-  margin: 0 0 2.5rem 0;
- }
- ul {
-  width: auto;
-  @include clearfix;
-  li {
-   display: inline-block;
-   float: left;
-   width: 33%;
-   min-height: 5rem;
-   
-   &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+/* footer */
+footer {
+    text-align: center;
     margin: 0 0 2rem 0;
-   }
-   
-   picture {
-    float: left;
-    margin: 0 2rem 0 4rem;
-    vertical-align: middle;
+    p {
+        font-family: $font-secondary;
+        font-weight: 300;
+        /* 2015 LukaDuka. All r: */
+        font-size: 1rem;
+        color: $copyright-gray;
+        letter-spacing: 0.63px;
+        line-height: 19px;
+    }
+}
+
+/* Paper Tabs */
+.toolbar {
+    height:64px;
+    background: $white;
+}
+.tabs {
+    padding-top:14px;
+}
+.tabs ul {
+    list-style:none;
+    margin:0;
+    width:100%;
+    overflow:hidden;
+    padding:0;
+    margin-left:0;
+}
+.tabs ul li {
+    float:left;
+    width:auto;
+    margin: 0 4.7rem 0 0rem;
+}
+
+.tabs ul li:last-child {
+    margin: 0;
+}
+
+.tabs a {
+    position:relative;
+    color: $tab-link-color;
+    text-decoration:none;
+    display:block;
+    width:auto;
+    height:50px;
+    text-align:center;
+    font-weight:300;
+    font-size: 1.3rem;
+    overflow:hidden;
+    font-family: Lato-Light;
+    font-size: 20px;
+    color: rgba(75,91,102,0.85);
+    line-height: 30px;
+}
+
+.tabs .active a {
+    color: $blue;
+}
+
+@include keyframes(bounce) {
+	0%, 20%, 50%, 80%, 100% {
+    @include transform(translateY(0));
+  }
+	40% {
+    @include transform(translateY(-30px));
+  }
+	60% {
+    @include transform(translateY(-15px));
+  }
+}
+
+.tabs .active a:after {
+    height: 5px;
+    width: 100%;
     display: block;
-   } //picture element
-   p {
-    color: lighten($mediumgray, 12);
-    margin-top: 0.5rem;
-    float: left;
-    width: 57%;
-   } //paragraph
-  } //li
- } //ul
-} //Use case
-
-//Footer --------------------------
-ul.bottom-feature-nav {
- @include clearfix;
- display: inline-block;
- h1 {
-  font-family: $font-secondary;
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin: 0 0 1rem 0;
-  padding: 0;
-  color: $white;
- } //h1 heading
- 
- li {
-  display: block;
-  
-  a {
-   color: $lightgray;
-   margin: 0 0 1rem 0;
-   font-family: $font-secondary;
-   font-size: 1rem;
-   font-weight: 300;
-   letter-spacing: 0.01em;
-  } //links
- } //list
-} //Bottom navigation
-
-.email {
- float: right;
- color: $lightgray;
- font-family: $font-secondary;
- font-size: 1rem;
- letter-spacing: 0.01em;
+    content: " ";
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    background: $blue;
+-webkit-animation: border-expand 0.2s cubic-bezier(0.4, 0.0, 0.4, 1) 0s alternate forwards;
+    -moz-animation: border-expand 0.2s cubic-bezier(0.4, 0.0, 0.4, 1) 0s alternate forwards;
+    transition:all 1s cubic-bezier(0.4, 0.0, 1, 1);
 }
 
-.copyright {
- position: absolute;
- bottom: 1rem;
- text-align: center;
- font-family: $font-secondary;
- font-size: 1rem;
- color: $white;
- width: 100%;
+.tabs a span {
+    position:absolute;
+    margin-left:-40px;
+    margin-top:-24px;
+    width:80px;
+    background: $blue;
+    height:100%;
+    display:block;
+    border-radius:50%;
+    opacity:0;
 }
 
+.tabs a span.clicked {
+    /*-webkit-animation: expand 0.6s cubic-bezier(0.4, 0.0, 0.4, 1) 0s normal;
+    -moz-animation: expand 0.6s cubic-bezier(0.4, 0.0, 0.4, 1) 0s normal;*/
+    border-bottom:2px solid $blue;
+}
+.content {
+    box-shadow: none;
+    border-top: 1px solid $border-color;
+    height:500px;
+    padding-top:50px;
+    position:relative;
+    top:0px;
+    overflow:hidden;
+}
 
+.item {
+    background:white;
+    width:440px;
+    padding-bottom:30px;
+    margin:0 auto 2em;
+}
 
+.itemhead {padding:30px;overflow:hidden;position:relative;}
+.itemhead img {border-radius:100%;float:left}
+.itemhead h2 {float:left;margin-left:20px;}
+.itemhead .heart {cursor:pointer;position:absolute;right:4px;top:4px;padding:7px;border-radius:2px}
+.item p:first-of-type {margin-top:0}
+.item p {padding:0px 30px;font-size:19px;line-height:26px;margin:0;margin-top:1em;}
+.item a {text-decoration:none;color:#00bcd4;font-weight:500;font-size:0.8em;}
 
+.heart:hover {box-shadow:0 1px 0 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.1)}
+.heart #favorite {fill:#636363}
+.heart.active #favorite {fill:#DA4336;}
 
+.box {
+    display:none;
+    overflow:auto;
+    position:relative;
+    overflow-x:hidden;
+}
 
+.box.show {
+    display:block;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+@-webkit-keyframes expand {
+    0% {
+        background:rgba(255,255,141,1);
+        opacity:1;
+        border-radius:100%;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        -moz-transform:scale(0);
+    }
+    50% {
+        background:rgba(255,255,141,0.8);
+        border-radius:50%;
+    }
+    100% {
+        background:rgba(255,255,141,0);
+        transform: scale(3);
+        border-radius: 0;
+        -webkit-transform: scale(3);
+        -moz-transform:scale(3);
+        opacity:1;
+    }
+}
+@-moz-keyframes expand {
+    0% {
+        background:rgba(255,255,141,1);
+        opacity:1;
+        border-radius:100%;
+        transform: scale(0);
+        -moz-transform:scale(0);
+    }
+    50% {
+        background:rgba(255,255,141,0.8);
+        border-radius:50%;
+    }
+    100% {
+        background:rgba(255,255,141,0);
+        transform: scale(3);
+        border-radius: 0;
+        -moz-transform:scale(3);
+        opacity:1;
+    }
+}
+@-webkit-keyframes border-expand {
+    0% {
+        opacity:0;
+        width:0;
+    }
+    100% {
+        opacity:1;
+        width:100%;
+    }
+}
+@-moz-keyframes border-expand {
+    0% {
+        opacity:0;
+        width:0;
+    }
+    100% {
+        opacity:1;
+        width:100%;
+    }
+}

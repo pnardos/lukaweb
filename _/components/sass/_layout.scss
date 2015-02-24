@@ -1,0 +1,512 @@
+// Header
+/* Header */
+.header {
+    background: $white;
+    padding: 2rem 0;
+}
+
+.header-fixed {
+    position: fixed;
+    z-index: 10;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+@-webkit-keyframes headroom--pinned {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes headroom--pinned {
+  0% {
+    -moz-transform: translateY(-100%);
+  }
+
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes headroom--pinned {
+  0% {
+    -o-transform: translateY(-100%);
+  }
+
+  100% {
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes headroom--pinned {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.headroom--pinned {
+    display: block;
+    -webkit-animation-name: headroom--pinned;
+  animation-name: headroom--pinned;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+@-webkit-keyframes headroom--unpinned {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-100%);
+  }
+}
+@-moz-keyframes headroom--unpinned {
+  0% {
+    -moz-transform: translateY(0);
+  }
+
+  100% {
+    -moz-transform: translateY(-100%);
+  }
+}
+@-o-keyframes headroom--unpinned {
+  0% {
+    -o-transform: translateY(0);
+  }
+
+  100% {
+    -o-transform: translateY(-100%);
+  }
+}
+@keyframes headroom--unpinned {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+
+.headroom--unpinned {
+    -webkit-animation-name: headroom--unpinned;
+  -moz-animation-name: headroom--unpinned;
+  -o-animation-name: headroom--unpinned;
+  animation-name: headroom--unpinned;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+
+.headroom--top {
+   background: transparent;
+}
+
+.headroom--not-top {
+    background: rgba(0,0,0,0.7); 
+}
+
+/* Header, logo & navigation */
+header {
+    h1 {
+      display: inline;  
+    }
+    
+    nav.top-nav {
+        float: right;
+        
+        ul {
+            margin: 0 0;
+            
+            li {
+                float: left;
+                /* Rectangle 7: */
+                border: 1px solid #FFFFFF;
+                border-radius: 3px;
+                margin: 0 0 0 2rem;
+                padding: .5rem;
+                a {
+                    font-family: $font-secondary;
+                    font-weight: 300;
+                    text-decoration: none;
+                    color: $white;
+                    /* Log in: */
+                    font-size: 1.15rem;
+                    color: #FFFFFF;
+                    letter-spacing: 0.89px;
+                    line-height: 22px;
+                    padding: 1rem;
+                }
+            } //li
+        } // ul
+    } // navigation
+} //header
+
+
+/* Hero banner area */
+/* background setup */
+.background {
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\9 !important;
+}
+
+.fullscreen {
+    width:100%;
+    min-height:100%;
+    
+    article {
+        background: rgba(0,0,0,.4);
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 5rem 0 0 0;
+        
+        h1 {
+            font-family: $font-secondary;
+            font-size: 5rem;
+            font-weight: 100;
+            width: 50%;
+            margin: 0 auto;
+        } //h1 header
+        
+        p {
+           font-family: $font-secondary;
+            /* Manage products and : */
+            font-size: 1.3rem;
+            color: $white;
+            letter-spacing: 0.5px;
+            line-height: 34px;
+            width: 50%;
+            margin: 0 auto 8rem auto;
+        } //paragraph
+        
+        a {
+            text-decoration: none;
+            color: $white;
+            border-radius: 30px;
+            /* Sign up free: */
+            font-family: $font-secondary;
+            font-size: 1.2rem;
+            font-weight: 100;
+            letter-spacing: 0.86px;
+            line-height: 22px;
+            background: rgba(0,0,0,0.8);
+            margin: 0 0 0 0;
+            padding: 1.2rem;
+            display: inline-block;
+            
+            span {
+                text-transform: uppercase;
+            }
+        } //link
+    } //article hero content area
+} //fullscreen hero banner container
+
+/* platform */
+.platform {
+  @include clearfix;
+  
+  article {
+    margin: 5rem 0 0 0;
+    
+    h1 {
+      /* Ready to Get Started: */
+    font-family: $font-secondary;
+    font-weight: 300;
+    font-size: 3rem;
+    color: $mediumgray;
+    letter-spacing: 0.85px;
+    line-height: 66px;
+    margin: 0 0 4rem 0;
+      text-align: center;
+    } //header
+    
+    .wrapper {
+      float: left;
+      width: 40%;
+      padding: 0 0 0 2.5rem;
+    }
+    
+    p {
+      /* We believe that your: */
+      font-family: $font-secondary;
+      font-weight: 300;
+      font-size: 1.1rem;
+      color: rgba(60, 58, 58, 0.72);
+      letter-spacing: 0.4px;
+      line-height: 33px;
+      margin: 0 0 1rem 0;
+    } //paragraph
+    
+    img {
+      float: right;
+      display: block;
+      
+    }
+    
+  }
+} //One platform
+
+
+/* Merchnats Rely on us to sell */
+.merchants {
+  @include clearfix;
+  
+  article {
+    margin: 0rem 0 0 0;
+    background-color: $lightergray;
+    border: 1px solid $border-color;
+    text-align: center;
+    padding: 5rem;
+    h1 {
+      /* Ready to Get Started: */
+    font-family: $font-secondary;
+    font-weight: 300;
+    font-size: 3rem;
+    color: $mediumgray;
+    letter-spacing: 0.85px;
+    line-height: 66px;
+    margin: 0 0 4rem 0;
+      text-align: center;
+    } //header
+    
+    .wrapper {
+      float: left;
+      width: 40%;
+    }
+    
+    p {
+      /* We believe that your: */
+      font-family: $font-secondary;
+      font-weight: 300;
+      font-size: 1.1rem;
+      color: rgba(97, 97, 97, 0.85);
+      letter-spacing: 0.92px;
+      line-height: 30px;
+      margin: 0 0 1rem 0;
+    } //paragraph
+    
+    img {
+      float: right;
+      display: block;
+      
+    }
+    
+  }
+} //Merchants Rely on us to sell
+
+/* Features */
+.features {
+  @include clearfix;
+  
+  article {
+    margin: 0 0;
+    text-align: center;
+    padding: 0rem 5rem 5rem 5rem;
+    
+    &.feature-tabs {
+      padding: 0;
+      margin: 0 0 5rem 0;
+      border-bottom: 1px solid $border-color;
+    }
+    h1 {
+      /* Ready to Get Started: */
+    font-family: $font-secondary;
+    font-weight: 300;
+    font-size: 3rem;
+    color: $mediumgray;
+    letter-spacing: 0.85px;
+    line-height: 66px;
+    margin: 5rem 0 4rem 0;
+      text-align: center;
+    } //header
+    
+    .wrapper {
+      float: left;
+      width: 40%;
+    }
+    
+    p {
+      /* We believe that your: */
+      font-family: $font-secondary;
+      font-weight: 300;
+      font-size: 1.1rem;
+      color: rgba(60, 58, 58, 0.72);
+      letter-spacing: 0.4px;
+      line-height: 33px;
+      text-align: center;
+      margin: 0 auto 1rem auto;
+      padding: 0 8rem;
+      width: auto;
+      display: inline-block;
+    } //paragraph
+    
+    div.image-wrapper {
+      display: inline-block;
+      clear: both;
+      width: auto;
+      margin: 0 auto;
+    }
+    
+    img {
+      float: right;
+      display: block;
+      
+    }
+    
+  }
+} //Features
+
+/* Sell Anything */
+.sell-anything {
+  @include clearfix;
+  article {
+    h1 {
+      /* Ready to Get Started: */
+    font-family: $font-secondary;
+    font-weight: 300;
+    font-size: 3rem;
+    color: $mediumgray;
+    letter-spacing: 0.85px;
+    line-height: 66px;
+    margin: 0 0 3rem 0;
+      text-align: center;
+    } //header
+    
+    ul.product-icons {
+      li {
+        /* float: left; */
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        vertical-align: middle;
+        overflow: hidden;
+        padding: 3rem;
+        display: inline-block;
+        /* height: 100%; */
+        max-height: 30rem;
+        vertical-align: middle;
+        white-space: nowrap;
+        img {
+          vertical-align: middle;
+          max-height: 80px;
+          max-width: 160px;
+        }
+      }
+    }
+  } //article
+} //sell anything
+
+
+/* Get Started */
+.get-started {
+  /* Rectangle 11: */
+  @include clearfix;
+  display: block;
+  background-color: $lightergray;
+  border: 1px solid $border-color;
+  text-align: center;
+  padding: 5rem;
+  margin: 0 0 6rem 0;
+  
+  h1 {
+    /* Ready to Get Started: */
+     font-family: $font-secondary;
+    font-weight: 300;
+    font-size: 3rem;
+    color: $mediumgray;
+    letter-spacing: 0.85px;
+    line-height: 66px;
+    margin: 0 0 3rem 0;
+  }
+  
+  a {
+    /* Rectangle 7: */
+    background: #F38630;
+    border-radius: 80px;
+    /* Sign up free: */
+    font-family: $font-secondary;
+    font-weight: 300;
+    font-size: 1.4rem;
+    color: $white;
+    letter-spacing: 0.73px;
+    line-height: 29px;
+    padding: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    
+    span {
+      text-transform: uppercase;
+    }
+  }
+}
+
+/* Footer */
+footer {
+  nav.social-nav {
+    display: inline-block;
+    @include clearfix;
+    margin: 1rem auto 2rem auto;
+    width: auto;
+    text-align: center;
+    ul {
+      li {
+        float: left;
+        display: block;
+        margin: 0 1rem;
+        a {
+          display: inline-block;
+          width: auto;
+          height: auto;
+        } //link
+      } //li
+    } //ul
+  } //bottom navigation
+} //footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

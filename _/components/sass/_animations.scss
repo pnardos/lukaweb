@@ -1,0 +1,99 @@
+/**
+ * Note: I have omitted any vendor-prefixes for clarity.
+ * Adding them is left as an exercise for the reader.
+ */
+.headroom {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes headroom--pinned {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+
+@-moz-keyframes headroom--pinned {
+  0% {
+    -moz-transform: translateY(-100%);
+  }
+
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+
+@-o-keyframes headroom--pinned {
+  0% {
+    -o-transform: translateY(-100%);
+  }
+
+  100% {
+    -o-transform: translateY(0);
+  }
+}
+
+@keyframes headroom--pinned {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.headroom.headroom--pinned {
+  -webkit-animation-name: headroom--pinned;
+  -moz-animation-name: headroom--pinned;
+  -o-animation-name: headroom--pinned;
+  animation-name: headroom--pinned;
+}
+
+@-webkit-keyframes headroom--unpinned {
+  0% {
+    -webkit-transform: translateY(0);
+  }
+
+  100% {
+    -webkit-transform: translateY(-100%);
+  }
+}
+@-moz-keyframes headroom--unpinned {
+  0% {
+    -moz-transform: translateY(0);
+  }
+
+  100% {
+    -moz-transform: translateY(-100%);
+  }
+}
+@-o-keyframes headroom--unpinned {
+  0% {
+    -o-transform: translateY(0);
+  }
+
+  100% {
+    -o-transform: translateY(-100%);
+  }
+}
+@keyframes headroom--unpinned {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.headroom.headroom--unpinned {
+  -webkit-animation-name: headroom--unpinned;
+  -moz-animation-name: headroom--unpinned;
+  -o-animation-name: headroom--unpinned;
+  animation-name: headroom--unpinned;
+}
