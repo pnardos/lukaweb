@@ -38,7 +38,7 @@
 	<section class="hero fullscreen background" style="background-image:url('_/images/shopping-606993_1920.png');" data-img-width="1600" data-img-height="1064">
 		<article>
 			<div class="wow zoomIn">
-				<h1>Power your shop In-store &amp; Online.</h1>
+				<h1 id="responsive_hero">Power your shop In-store &amp; Online.</h1>
 				<p>
 					Manage products and orders, Sell to all your page fans on Facebook, Capture sales in your shop and Review analytics &amp; data for your shop.
 				</p>
@@ -405,6 +405,9 @@
 	<script>
 		new WOW().init();
 	</script>
+	<script>
+  jQuery("#responsive_hero").fitText();
+</script>
 	<script src="http://localhost:35729/livereload.js"></script>
 
 </body>
