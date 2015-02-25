@@ -535,6 +535,7 @@ header {
             font-family: $font-secondary;
             font-size: 5rem;
             font-weight: 100;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
             width: 50%;
             margin: 0 auto;
         } //h1 header
@@ -542,10 +543,11 @@ header {
         p {
            font-family: $font-secondary;
             /* Manage products and : */
-            font-size: 1.3rem;
+            font-size: 1.2rem;
+			font-weight: 300;
             color: $white;
-            letter-spacing: 0.5px;
-            line-height: 34px;
+            letter-spacing: 0.03rem;
+            line-height: 2rem;
             width: 50%;
             margin: 0 auto 8rem auto;
         } //paragraph
@@ -553,16 +555,17 @@ header {
         a {
             text-decoration: none;
             color: $white;
-            border-radius: 30px;
+            border-radius: 5rem;
             /* Sign up free: */
             font-family: $font-secondary;
-            font-size: 1.2rem;
-            font-weight: 100;
+            font-size: 0.9rem;
+            font-weight: 300;
+			text-transform: uppercase;
             letter-spacing: 0.86px;
             line-height: 22px;
             background: rgba(0,0,0,0.8);
             margin: 0 0 0 0;
-            padding: 1.2rem;
+            padding: 1rem;
             display: inline-block;
             
             span {
@@ -583,35 +586,37 @@ header {
       /* Ready to Get Started: */
     font-family: $font-secondary;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.7rem;
     color: $mediumgray;
     letter-spacing: 0.85px;
     line-height: 66px;
-    margin: 0 0 4rem 0;
+    margin: 0 0 0 0;
       text-align: center;
     } //header
     
     .wrapper {
-      float: left;
-      width: 40%;
-      padding: 0 0 0 2.5rem;
+      float: none;
+      width: 56%;
+	  padding: 0;
+	  margin: 0 auto;
     }
     
     p {
       /* We believe that your: */
       font-family: $font-secondary;
       font-weight: 300;
-      font-size: 1.1rem;
-      color: rgba(60, 58, 58, 0.95);
+      font-size: 1rem;
+      color: $darkgray;
       letter-spacing: 0.4px;
-      line-height: 33px;
-      margin: 0 0 1rem 0;
+      line-height: 1.7rem;
+      margin: 1rem 0;
     } //paragraph
     
     img {
-      float: right;
+      float: none;
       display: block;
-      
+	  width: auto;
+      margin: 0 auto;
     }
     
   }
@@ -700,8 +705,8 @@ header {
       /* We believe that your: */
       font-family: $font-secondary;
       font-weight: 300;
-      font-size: 1.1rem;
-      color: rgba(60, 58, 58, 0.95);
+      font-size: 1.02rem;
+      color: $darkgray;
       letter-spacing: 0.4px;
       line-height: 33px;
       text-align: center;
@@ -796,8 +801,9 @@ header {
     border-radius: 80px;
     /* Sign up free: */
     font-family: $font-secondary;
+	text-transform: uppercase;
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: $white;
     letter-spacing: 0.73px;
     line-height: 29px;

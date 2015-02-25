@@ -71,7 +71,7 @@ html {
 
 /* line 17, ../components/sass/_base.scss */
 .wrap {
-  width: 65rem;
+  width: 66rem;
   margin: 0 auto;
   padding: 1.5rem 0 0.5rem 0; }
 
@@ -81,16 +81,14 @@ body {
   font-style: normal;
   font-size: 1.125rem;
   line-height: 1.5;
-  color: #3d3d3d;
-  font-weight: 100;
-  text-rendering: optimizeLegibility; }
+  color: #3d3d3d; }
 
-/* line 33, ../components/sass/_base.scss */
+/* line 31, ../components/sass/_base.scss */
 img {
   max-width: 100%;
   height: auto; }
 
-/* line 38, ../components/sass/_base.scss */
+/* line 36, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
   font-weight: normal; }
@@ -662,89 +660,95 @@ header nav.top-nav {
       font-family: "Lato", sans-serif;
       font-size: 5rem;
       font-weight: 100;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
       width: 50%;
       margin: 0 auto; }
-    /* line 542, ../components/sass/_layout.scss */
+    /* line 543, ../components/sass/_layout.scss */
     .fullscreen article p {
       font-family: "Lato", sans-serif;
       /* Manage products and : */
-      font-size: 1.3rem;
+      font-size: 1.2rem;
+      font-weight: 300;
       color: #ffffff;
-      letter-spacing: 0.5px;
-      line-height: 34px;
+      letter-spacing: 0.03rem;
+      line-height: 2rem;
       width: 50%;
       margin: 0 auto 8rem auto; }
-    /* line 553, ../components/sass/_layout.scss */
+    /* line 555, ../components/sass/_layout.scss */
     .fullscreen article a {
       text-decoration: none;
       color: #ffffff;
-      border-radius: 30px;
+      border-radius: 5rem;
       /* Sign up free: */
       font-family: "Lato", sans-serif;
-      font-size: 1.2rem;
-      font-weight: 100;
+      font-size: 0.9rem;
+      font-weight: 300;
+      text-transform: uppercase;
       letter-spacing: 0.86px;
       line-height: 22px;
       background: rgba(0, 0, 0, 0.8);
       margin: 0 0 0 0;
-      padding: 1.2rem;
+      padding: 1rem;
       display: inline-block; }
-      /* line 568, ../components/sass/_layout.scss */
+      /* line 571, ../components/sass/_layout.scss */
       .fullscreen article a span {
         text-transform: uppercase; }
 
 /* platform */
-/* line 576, ../components/sass/_layout.scss */
+/* line 579, ../components/sass/_layout.scss */
 .platform {
   overflow: hidden;
   *zoom: 1; }
-  /* line 579, ../components/sass/_layout.scss */
+  /* line 582, ../components/sass/_layout.scss */
   .platform article {
     margin: 5rem 0 0 0; }
-    /* line 582, ../components/sass/_layout.scss */
+    /* line 585, ../components/sass/_layout.scss */
     .platform article h1 {
       /* Ready to Get Started: */
       font-family: "Lato", sans-serif;
       font-weight: 300;
-      font-size: 3rem;
+      font-size: 2.7rem;
       color: #616161;
       letter-spacing: 0.85px;
       line-height: 66px;
-      margin: 0 0 4rem 0;
+      margin: 0 0 0 0;
       text-align: center; }
-    /* line 594, ../components/sass/_layout.scss */
+    /* line 597, ../components/sass/_layout.scss */
     .platform article .wrapper {
-      float: left;
-      width: 40%;
-      padding: 0 0 0 2.5rem; }
-    /* line 600, ../components/sass/_layout.scss */
+      float: none;
+      width: 56%;
+      padding: 0;
+      margin: 0 auto; }
+    /* line 604, ../components/sass/_layout.scss */
     .platform article p {
       /* We believe that your: */
       font-family: "Lato", sans-serif;
       font-weight: 300;
-      font-size: 1.1rem;
-      color: rgba(60, 58, 58, 0.95);
+      font-size: 1rem;
+      color: #3d3d3d;
       letter-spacing: 0.4px;
-      line-height: 33px;
-      margin: 0 0 1rem 0; }
-    /* line 611, ../components/sass/_layout.scss */
+      line-height: 1.7rem;
+      margin: 1rem 0; }
+    /* line 615, ../components/sass/_layout.scss */
     .platform article img {
-      float: right;
-      display: block; }
+      float: none;
+      display: block;
+      width: auto;
+      margin: 0 auto; }
 
 /* Merchnats Rely on us to sell */
-/* line 622, ../components/sass/_layout.scss */
+/* line 627, ../components/sass/_layout.scss */
 .merchants {
   overflow: hidden;
   *zoom: 1; }
-  /* line 625, ../components/sass/_layout.scss */
+  /* line 630, ../components/sass/_layout.scss */
   .merchants article {
     margin: 0rem 0 0 0;
     background-color: #f2f2f2;
     border: 1px solid #EBEBEB;
     text-align: center;
     padding: 5rem; }
-    /* line 631, ../components/sass/_layout.scss */
+    /* line 636, ../components/sass/_layout.scss */
     .merchants article h1 {
       /* Ready to Get Started: */
       font-family: "Lato", sans-serif;
@@ -755,11 +759,11 @@ header nav.top-nav {
       line-height: 66px;
       margin: 0 0 4rem 0;
       text-align: center; }
-    /* line 643, ../components/sass/_layout.scss */
+    /* line 648, ../components/sass/_layout.scss */
     .merchants article .wrapper {
       float: left;
       width: 40%; }
-    /* line 648, ../components/sass/_layout.scss */
+    /* line 653, ../components/sass/_layout.scss */
     .merchants article p {
       /* We believe that your: */
       font-family: "Lato", sans-serif;
@@ -769,27 +773,27 @@ header nav.top-nav {
       letter-spacing: 0.92px;
       line-height: 30px;
       margin: 0 0 1rem 0; }
-    /* line 659, ../components/sass/_layout.scss */
+    /* line 664, ../components/sass/_layout.scss */
     .merchants article img {
       float: right;
       display: block; }
 
 /* Features */
-/* line 669, ../components/sass/_layout.scss */
+/* line 674, ../components/sass/_layout.scss */
 .features {
   overflow: hidden;
   *zoom: 1; }
-  /* line 672, ../components/sass/_layout.scss */
+  /* line 677, ../components/sass/_layout.scss */
   .features article {
     margin: 0 0;
     text-align: center;
     padding: 0rem 5rem 5rem 5rem; }
-    /* line 677, ../components/sass/_layout.scss */
+    /* line 682, ../components/sass/_layout.scss */
     .features article.feature-tabs {
       padding: 0;
       margin: 0 0 5rem 0;
       border-bottom: 1px solid #EBEBEB; }
-    /* line 682, ../components/sass/_layout.scss */
+    /* line 687, ../components/sass/_layout.scss */
     .features article h1 {
       /* Ready to Get Started: */
       font-family: "Lato", sans-serif;
@@ -800,17 +804,17 @@ header nav.top-nav {
       line-height: 66px;
       margin: 5rem 0 4rem 0;
       text-align: center; }
-    /* line 694, ../components/sass/_layout.scss */
+    /* line 699, ../components/sass/_layout.scss */
     .features article .wrapper {
       float: left;
       width: 40%; }
-    /* line 699, ../components/sass/_layout.scss */
+    /* line 704, ../components/sass/_layout.scss */
     .features article p {
       /* We believe that your: */
       font-family: "Lato", sans-serif;
       font-weight: 300;
-      font-size: 1.1rem;
-      color: rgba(60, 58, 58, 0.95);
+      font-size: 1.02rem;
+      color: #3d3d3d;
       letter-spacing: 0.4px;
       line-height: 33px;
       text-align: center;
@@ -818,23 +822,23 @@ header nav.top-nav {
       padding: 0 8rem;
       width: auto;
       display: inline-block; }
-    /* line 714, ../components/sass/_layout.scss */
+    /* line 719, ../components/sass/_layout.scss */
     .features article div.image-wrapper {
       display: inline-block;
       clear: both;
       width: auto;
       margin: 0 auto; }
-    /* line 721, ../components/sass/_layout.scss */
+    /* line 726, ../components/sass/_layout.scss */
     .features article img {
       float: right;
       display: block; }
 
 /* Sell Anything */
-/* line 731, ../components/sass/_layout.scss */
+/* line 736, ../components/sass/_layout.scss */
 .sell-anything {
   overflow: hidden;
   *zoom: 1; }
-  /* line 734, ../components/sass/_layout.scss */
+  /* line 739, ../components/sass/_layout.scss */
   .sell-anything article h1 {
     /* Ready to Get Started: */
     font-family: "Lato", sans-serif;
@@ -845,10 +849,10 @@ header nav.top-nav {
     line-height: 66px;
     margin: 0 0 3rem 0;
     text-align: center; }
-  /* line 746, ../components/sass/_layout.scss */
+  /* line 751, ../components/sass/_layout.scss */
   .sell-anything article ul.product-icons {
     margin: 0 2rem; }
-    /* line 749, ../components/sass/_layout.scss */
+    /* line 754, ../components/sass/_layout.scss */
     .sell-anything article ul.product-icons li {
       display: inline-block;
       width: 33%;
@@ -860,14 +864,14 @@ header nav.top-nav {
       max-height: 30rem;
       vertical-align: middle;
       white-space: nowrap; }
-      /* line 760, ../components/sass/_layout.scss */
+      /* line 765, ../components/sass/_layout.scss */
       .sell-anything article ul.product-icons li img {
         vertical-align: middle;
         max-height: 80px;
         max-width: 160px; }
 
 /* Get Started */
-/* line 772, ../components/sass/_layout.scss */
+/* line 777, ../components/sass/_layout.scss */
 .get-started {
   /* Rectangle 11: */
   overflow: hidden;
@@ -878,7 +882,7 @@ header nav.top-nav {
   text-align: center;
   padding: 5rem;
   margin: 0 0 6rem 0; }
-  /* line 782, ../components/sass/_layout.scss */
+  /* line 787, ../components/sass/_layout.scss */
   .get-started h1 {
     /* Ready to Get Started: */
     font-family: "Lato", sans-serif;
@@ -888,27 +892,28 @@ header nav.top-nav {
     letter-spacing: 0.85px;
     line-height: 66px;
     margin: 0 0 3rem 0; }
-  /* line 793, ../components/sass/_layout.scss */
+  /* line 798, ../components/sass/_layout.scss */
   .get-started a {
     /* Rectangle 7: */
     background: #F38630;
     border-radius: 80px;
     /* Sign up free: */
     font-family: "Lato", sans-serif;
+    text-transform: uppercase;
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #ffffff;
     letter-spacing: 0.73px;
     line-height: 29px;
     padding: 1rem;
     text-decoration: none;
     display: inline-block; }
-    /* line 808, ../components/sass/_layout.scss */
+    /* line 814, ../components/sass/_layout.scss */
     .get-started a span {
       text-transform: uppercase; }
 
 /* Footer */
-/* line 816, ../components/sass/_layout.scss */
+/* line 822, ../components/sass/_layout.scss */
 footer nav.social-nav {
   display: inline-block;
   overflow: hidden;
@@ -916,12 +921,12 @@ footer nav.social-nav {
   margin: 1rem auto 2rem auto;
   width: auto;
   text-align: center; }
-  /* line 823, ../components/sass/_layout.scss */
+  /* line 829, ../components/sass/_layout.scss */
   footer nav.social-nav ul li {
     float: left;
     display: block;
     margin: 0 1rem; }
-    /* line 827, ../components/sass/_layout.scss */
+    /* line 833, ../components/sass/_layout.scss */
     footer nav.social-nav ul li a {
       display: inline-block;
       width: auto;
@@ -1000,12 +1005,13 @@ footer {
   font-weight: 300;
   font-size: 1.3rem;
   overflow: hidden;
-  font-family: Lato-Light;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   font-size: 20px;
   color: rgba(75, 91, 102, 0.85);
   line-height: 30px; }
 
-/* line 75, ../components/sass/_modules.scss */
+/* line 76, ../components/sass/_modules.scss */
 .tabs .active a {
   color: #308AD2; }
 
@@ -1045,7 +1051,7 @@ footer {
     -ms-transform: translateY(-15px);
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px); } }
-/* line 91, ../components/sass/_modules.scss */
+/* line 92, ../components/sass/_modules.scss */
 .tabs .active a:after {
   height: 5px;
   width: 100%;
@@ -1059,7 +1065,7 @@ footer {
   -moz-animation: border-expand 0.2s cubic-bezier(0.4, 0, 0.4, 1) 0s alternate forwards;
   transition: all 1s cubic-bezier(0.4, 0, 1, 1); }
 
-/* line 105, ../components/sass/_modules.scss */
+/* line 106, ../components/sass/_modules.scss */
 .tabs a span {
   position: absolute;
   margin-left: -40px;
@@ -1071,13 +1077,13 @@ footer {
   border-radius: 50%;
   opacity: 0; }
 
-/* line 117, ../components/sass/_modules.scss */
+/* line 118, ../components/sass/_modules.scss */
 .tabs a span.clicked {
   /*-webkit-animation: expand 0.6s cubic-bezier(0.4, 0.0, 0.4, 1) 0s normal;
   -moz-animation: expand 0.6s cubic-bezier(0.4, 0.0, 0.4, 1) 0s normal;*/
   border-bottom: 2px solid #308AD2; }
 
-/* line 122, ../components/sass/_modules.scss */
+/* line 123, ../components/sass/_modules.scss */
 .content {
   box-shadow: none;
   border-top: 1px solid #EBEBEB;
@@ -1087,30 +1093,30 @@ footer {
   top: 0px;
   overflow: hidden; }
 
-/* line 132, ../components/sass/_modules.scss */
+/* line 133, ../components/sass/_modules.scss */
 .item {
   background: white;
   width: 440px;
   padding-bottom: 30px;
   margin: 0 auto 2em; }
 
-/* line 139, ../components/sass/_modules.scss */
+/* line 140, ../components/sass/_modules.scss */
 .itemhead {
   padding: 30px;
   overflow: hidden;
   position: relative; }
 
-/* line 140, ../components/sass/_modules.scss */
+/* line 141, ../components/sass/_modules.scss */
 .itemhead img {
   border-radius: 100%;
   float: left; }
 
-/* line 141, ../components/sass/_modules.scss */
+/* line 142, ../components/sass/_modules.scss */
 .itemhead h2 {
   float: left;
   margin-left: 20px; }
 
-/* line 142, ../components/sass/_modules.scss */
+/* line 143, ../components/sass/_modules.scss */
 .itemhead .heart {
   cursor: pointer;
   position: absolute;
@@ -1119,11 +1125,11 @@ footer {
   padding: 7px;
   border-radius: 2px; }
 
-/* line 143, ../components/sass/_modules.scss */
+/* line 144, ../components/sass/_modules.scss */
 .item p:first-of-type {
   margin-top: 0; }
 
-/* line 144, ../components/sass/_modules.scss */
+/* line 145, ../components/sass/_modules.scss */
 .item p {
   padding: 0px 30px;
   font-size: 19px;
@@ -1131,33 +1137,33 @@ footer {
   margin: 0;
   margin-top: 1em; }
 
-/* line 145, ../components/sass/_modules.scss */
+/* line 146, ../components/sass/_modules.scss */
 .item a {
   text-decoration: none;
   color: #00bcd4;
   font-weight: 500;
   font-size: 0.8em; }
 
-/* line 147, ../components/sass/_modules.scss */
+/* line 148, ../components/sass/_modules.scss */
 .heart:hover {
   box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.1); }
 
-/* line 148, ../components/sass/_modules.scss */
+/* line 149, ../components/sass/_modules.scss */
 .heart #favorite {
   fill: #636363; }
 
-/* line 149, ../components/sass/_modules.scss */
+/* line 150, ../components/sass/_modules.scss */
 .heart.active #favorite {
   fill: #DA4336; }
 
-/* line 151, ../components/sass/_modules.scss */
+/* line 152, ../components/sass/_modules.scss */
 .box {
   display: none;
   overflow: auto;
   position: relative;
   overflow-x: hidden; }
 
-/* line 158, ../components/sass/_modules.scss */
+/* line 159, ../components/sass/_modules.scss */
 .box.show {
   display: block; }
 
