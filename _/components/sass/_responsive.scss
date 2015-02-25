@@ -1,41 +1,39 @@
-@media (max-width: 79rem) {
+@media (max-width: 65rem) {
   .wrap {
-    padding: 0 2rem;
+    width: 54rem;
   }
-}
-
-@media (max-width: 37.5rem) {
-  .wrap {
-    padding: 0 1.5rem;
+  
+  .tabs ul li {
+    margin: 0 1.5rem 0 1rem;
   }
-}
-
-/* expanded nav menu */
-@media (min-width: 61rem) {
-
-}
-
-/* collapsed nav menu */
-@media (max-width: 64rem) {
-  
-}
-
-@media (max-width: 64rem) and (orientation:landscape) {
-  
 }
 
 
 @media (max-width: 55rem) {
-    
+    .wrap {
+    width: 48rem;
+  }
 } //media query
 
 @media (max-width: 48rem) {  
-   
+   .wrap {
+    width: 40rem;
+  }
 } //media query
+
+@media (max-width: 37.5rem) {
+  .wrap {
+    width: 30rem;
+    background: #000;
+  }
+}
 
 
 @media (max-width: 30rem) and (orientation:portrait) {
-  
+  .wrap {
+    width: 40rem;
+    background: #000;
+  }
 } //small devices media query
 
 
@@ -45,7 +43,8 @@
 
 // Smallest common viewport ----------------------
 @media (max-width: 25rem) {
- body {
-  background: #fff;
- }
+ .wrap {
+    width: 40rem;
+    background: #000;
+  }
 } // smallest width
