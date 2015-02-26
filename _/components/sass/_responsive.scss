@@ -1,50 +1,137 @@
-@media (max-width: 65rem) {
-  .wrap {
-    width: 54rem;
+@media (max-width: 80rem) {
+  .top-nav {
+    display: none;
   }
   
-  .tabs ul li {
-    margin: 0 1.5rem 0 1rem;
-  }
-}
-
-
-@media (max-width: 55rem) {
-    .wrap {
-    width: 48rem;
+  .feature-col {
+    display: none;
   }
 } //media query
 
-@media (max-width: 48rem) {  
-   .wrap {
-    width: 40rem;
+@media (max-width: 70rem) {
+  .wrap {
+    width: 62rem; 
   }
+  
+  .tabs ul li {
+    margin: 0 4rem 0 0;
+  }
+  
+  .feature-col {
+    display: none;
+  }
+} //media query
+
+@media (max-width: 65rem) {
+  .wrap {
+    width: 55rem; 
+  }
+  
+  .top-nav {
+    display: none;
+  }
+  
+  .tabs ul li {
+    margin: 0 1.6rem 0 1rem;
+  }
+  
+  .feature-col {
+    display: none;
+  }
+} //media query
+
+
+@media (max-width: 58rem) {
+    .wrap {
+    width: 50rem;
+  }
+  
+  .top-nav {
+    display: block;
+  }
+  
+  .main-nav {
+    display: none;
+  }
+  
+  .tabs ul li {
+    margin: 0 1.6rem 0 0;
+  }
+  
+  .feature-col {
+    display: none;
+  }
+} //media query
+
+@media (max-width: 52rem) {  
+   .wrap {
+    width: 36rem;
+  }
+  
+  .feature-tabs {
+    display: none;
+  }
+  
+  .feature-col {
+      ul {
+        li {
+          @include clearfix;
+          display: block;
+          margin: 0 0 6rem 0;
+          
+          h2 {
+           color: rgba(75, 91, 102, 0.85);
+            font-family: $font-secondary;
+            font-weight: 500;
+            font-size: 1.3rem;
+            letter-spacing: 0.05rem;
+          } //h2 heading
+          
+          p {
+            width: 100%;
+            padding: 0;
+          } //paragraph
+        } //li
+      } //ul 
+  } //features column
 } //media query
 
 @media (max-width: 37.5rem) {
   .wrap {
-    width: 30rem;
-    background: #000;
+    width: 28rem;
   }
 }
 
 
-@media (max-width: 30rem) and (orientation:portrait) {
+@media (max-width: 30rem){
   .wrap {
-    width: 40rem;
-    background: #000;
+    width: 25rem;
   }
 } //small devices media query
-
-
-@media (max-width: 30rem) and (orientation:landscape){
-   
-}
 
 // Smallest common viewport ----------------------
 @media (max-width: 25rem) {
  .wrap {
-    width: 40rem;
-    background: #000;
+    width: 22rem;
   }
 } // smallest width
+
+// Smallest common viewport ----------------------
+@media (max-width: 20rem) {
+ .wrap {
+    width: 19rem;
+  }
+  
+  nav.login-link {
+    display: none;
+  }
+
+} // smallest width
+
+
+
+
+
+
+
+
