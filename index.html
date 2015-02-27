@@ -100,9 +100,7 @@
 		<article>
 			<div class="wow zoomIn">
 				<h1>Merchants rely on us to sell</h1>
-				<p>
-					We believe that your retail technology should enable you to take your shop online, offline, Facebook, Instagram, everywhere. That's why we created Africa's leading retail technology platform. Our technology is changing the way African retailers operate and earning them more customers, more orders and enabling them make better decisions.
-				</p>
+				
 			</div>
 
 		</article>
@@ -251,19 +249,19 @@
 			<h1 class="wow zoomIn">Sell Anything</h1>
 			<ul class="product-icons wow pulse">
 				<li>
-					<img src="_/images/baby15.png" alt="">
+					<img class="b-lazy" src="_/images/baby15.png" alt="">
 				</li>
 				<li>
-					<img src="_/images/baseball14.png" alt="">
+					<img class="b-lazy" src="_/images/baseball14.png" alt="">
 				</li>
 				<li>
-					<img src="_/images/bicycle8.png" alt="">
+					<img class="b-lazy" src="_/images/bicycle8.png" alt="">
 				</li>
 				<li>
-					<img src="_/images/gladiator1.png" alt="">
+					<img class="b-lazy" src="_/images/gladiator1.png" alt="">
 				</li>
 				<li>
-					<img src="_/images/popcorn2.png" alt="">
+					<img class="b-lazy" src="_/images/popcorn2.png" alt="">
 				</li>
 				<li>
 					<img src="_/images/take.png" alt="">
@@ -479,9 +477,12 @@
 	<script>
 		new WOW().init();
 	</script>
-	<script>
-  jQuery("#responsive_hero").fitText(0.8);
-</script>
+<script>
+        ;(function() {
+            // Initialize
+            var bLazy = new Blazy();
+        })();
+    </script>
 	<script src="http://localhost:35729/livereload.js"></script>
 
 </body>

@@ -1,3 +1,43 @@
+@media (min-width: 81rem) and (max-width: 180rem) {
+  .top-nav {
+    display: none;
+  }
+  
+  .fullscreen {
+    article {
+      h1 {
+        width: 25%;
+      } //heading
+      p {
+        width: 25%;
+      } //paragraph
+    }
+   } //fullscreen heading
+  
+  .sell-anything {
+    article {
+      ul.product-icons {
+        li {
+          width: 14%;
+        } //li
+      } //ul
+    } //article
+   } //sell anything
+  
+  .feature-col {
+    display: none;
+  }
+  
+  .platform {
+    article {
+      
+      .wrapper {
+        width: 26%;
+      }
+    }
+   } //platform
+} //media query
+
 @media (max-width: 80rem) {
   .top-nav {
     display: none;
@@ -105,7 +145,7 @@
   .sell-anything {
     article {
       ul.product-icons {
-        margin: 0 -5rem;
+        margin: 0 -5rem 0 -1rem;
       }
     }
    } //sell anything
@@ -183,7 +223,7 @@
       ul.product-icons {
         margin: 0 -2rem;
         li {
-          width: 32%;
+          width: 24%;
           
           img {
             max-width: 110px;

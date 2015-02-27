@@ -892,7 +892,7 @@ header nav.main-nav ul li {
     /* line 798, ../components/sass/_layout.scss */
     .sell-anything article ul.product-icons li {
       display: inline-block;
-      width: 33%;
+      width: 16%;
       text-align: center;
       vertical-align: middle;
       overflow: hidden;
@@ -1264,237 +1264,260 @@ footer {
 .b-lazy.b-loaded {
   opacity: 1; }
 
-@media (max-width: 80rem) {
+@media (min-width: 81rem) and (max-width: 180rem) {
   /* line 2, ../components/sass/_responsive.scss */
   .top-nav {
     display: none; }
 
-  /* line 6, ../components/sass/_responsive.scss */
+  /* line 8, ../components/sass/_responsive.scss */
+  .fullscreen article h1 {
+    width: 25%; }
+  /* line 11, ../components/sass/_responsive.scss */
+  .fullscreen article p {
+    width: 25%; }
+
+  /* line 20, ../components/sass/_responsive.scss */
+  .sell-anything article ul.product-icons li {
+    width: 14%; }
+
+  /* line 27, ../components/sass/_responsive.scss */
+  .feature-col {
+    display: none; }
+
+  /* line 34, ../components/sass/_responsive.scss */
+  .platform article .wrapper {
+    width: 26%; } }
+@media (max-width: 80rem) {
+  /* line 42, ../components/sass/_responsive.scss */
+  .top-nav {
+    display: none; }
+
+  /* line 46, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 70rem) {
-  /* line 12, ../components/sass/_responsive.scss */
+  /* line 52, ../components/sass/_responsive.scss */
   .wrap {
     width: 62rem; }
 
-  /* line 18, ../components/sass/_responsive.scss */
+  /* line 58, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     width: 60%; }
 
-  /* line 24, ../components/sass/_responsive.scss */
+  /* line 64, ../components/sass/_responsive.scss */
   .tabs ul li {
     margin: 0 4rem 0 0; }
 
-  /* line 28, ../components/sass/_responsive.scss */
+  /* line 68, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 65rem) {
-  /* line 34, ../components/sass/_responsive.scss */
+  /* line 74, ../components/sass/_responsive.scss */
   .wrap {
     width: 55rem; }
 
-  /* line 38, ../components/sass/_responsive.scss */
+  /* line 78, ../components/sass/_responsive.scss */
   .hero {
     background: url(../images/shopping-medium.png) 0 0 no-repeat; }
 
-  /* line 44, ../components/sass/_responsive.scss */
+  /* line 84, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     width: 70%; }
 
-  /* line 50, ../components/sass/_responsive.scss */
+  /* line 90, ../components/sass/_responsive.scss */
   .top-nav {
     display: none; }
 
-  /* line 54, ../components/sass/_responsive.scss */
+  /* line 94, ../components/sass/_responsive.scss */
   .tabs ul li {
     margin: 0 1.6rem 0 1rem; }
 
-  /* line 58, ../components/sass/_responsive.scss */
+  /* line 98, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 58rem) {
-  /* line 65, ../components/sass/_responsive.scss */
+  /* line 105, ../components/sass/_responsive.scss */
   .wrap {
     width: 50rem; }
 
-  /* line 69, ../components/sass/_responsive.scss */
+  /* line 109, ../components/sass/_responsive.scss */
   .top-nav {
     display: block; }
 
-  /* line 73, ../components/sass/_responsive.scss */
+  /* line 113, ../components/sass/_responsive.scss */
   .main-nav {
     display: none; }
 
-  /* line 79, ../components/sass/_responsive.scss */
+  /* line 119, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     font-size: 3.5rem;
     width: 50%;
     margin: 1rem auto 0 auto; }
-  /* line 85, ../components/sass/_responsive.scss */
+  /* line 125, ../components/sass/_responsive.scss */
   .fullscreen article p {
     font-size: 1.1rem;
     width: 80%;
     margin: 1rem auto 8rem auto; }
 
-  /* line 95, ../components/sass/_responsive.scss */
+  /* line 135, ../components/sass/_responsive.scss */
   .platform article h1 {
     font-size: 2.3rem; }
-  /* line 99, ../components/sass/_responsive.scss */
+  /* line 139, ../components/sass/_responsive.scss */
   .platform article .wrapper {
     width: 66%; }
 
-  /* line 107, ../components/sass/_responsive.scss */
+  /* line 147, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
-    margin: 0 -5rem; }
+    margin: 0 -5rem 0 -1rem; }
 
-  /* line 113, ../components/sass/_responsive.scss */
+  /* line 153, ../components/sass/_responsive.scss */
   .tabs ul li {
     margin: 0 1.6rem 0 0; }
 
-  /* line 117, ../components/sass/_responsive.scss */
+  /* line 157, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 52rem) {
-  /* line 123, ../components/sass/_responsive.scss */
+  /* line 163, ../components/sass/_responsive.scss */
   .wrap {
     width: 46rem; }
 
-  /* line 129, ../components/sass/_responsive.scss */
+  /* line 169, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     font-size: 3rem; }
 
-  /* line 135, ../components/sass/_responsive.scss */
+  /* line 175, ../components/sass/_responsive.scss */
   .feature-tabs {
     display: none; }
 
-  /* line 140, ../components/sass/_responsive.scss */
+  /* line 180, ../components/sass/_responsive.scss */
   .features article.feature-col {
     display: block;
     padding: 0; }
-    /* line 144, ../components/sass/_responsive.scss */
+    /* line 184, ../components/sass/_responsive.scss */
     .features article.feature-col ul li {
       overflow: hidden;
       *zoom: 1;
       display: block;
       margin: 0 0 6rem 0; }
-      /* line 149, ../components/sass/_responsive.scss */
+      /* line 189, ../components/sass/_responsive.scss */
       .features article.feature-col ul li h2 {
         color: rgba(75, 91, 102, 0.85);
         font-family: "Lato", sans-serif;
         font-weight: 500;
         font-size: 1.3rem;
         letter-spacing: 0.05rem; }
-      /* line 157, ../components/sass/_responsive.scss */
+      /* line 197, ../components/sass/_responsive.scss */
       .features article.feature-col ul li p {
         width: 100%;
         padding: 0; } }
 @media (max-width: 46rem) {
-  /* line 168, ../components/sass/_responsive.scss */
+  /* line 208, ../components/sass/_responsive.scss */
   .wrap {
     width: 38rem; }
 
-  /* line 174, ../components/sass/_responsive.scss */
+  /* line 214, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     font-size: 2.5rem;
     width: 80%; }
 
-  /* line 183, ../components/sass/_responsive.scss */
+  /* line 223, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
     margin: 0 -2rem; }
-    /* line 185, ../components/sass/_responsive.scss */
+    /* line 225, ../components/sass/_responsive.scss */
     .sell-anything article ul.product-icons li {
-      width: 32%; }
-      /* line 188, ../components/sass/_responsive.scss */
+      width: 24%; }
+      /* line 228, ../components/sass/_responsive.scss */
       .sell-anything article ul.product-icons li img {
         max-width: 110px; } }
 @media (max-width: 38rem) {
-  /* line 199, ../components/sass/_responsive.scss */
+  /* line 239, ../components/sass/_responsive.scss */
   .wrap {
     width: 34rem; } }
 @media (max-width: 34rem) {
-  /* line 205, ../components/sass/_responsive.scss */
+  /* line 245, ../components/sass/_responsive.scss */
   .wrap {
     width: 30rem; } }
 @media (max-width: 30rem) {
-  /* line 211, ../components/sass/_responsive.scss */
+  /* line 251, ../components/sass/_responsive.scss */
   .wrap {
     width: 25rem; }
 
-  /* line 217, ../components/sass/_responsive.scss */
+  /* line 257, ../components/sass/_responsive.scss */
   .platform article h1 {
     font-size: 2.3rem; }
-  /* line 221, ../components/sass/_responsive.scss */
+  /* line 261, ../components/sass/_responsive.scss */
   .platform article .wrapper {
     width: 80%; }
 
-  /* line 229, ../components/sass/_responsive.scss */
+  /* line 269, ../components/sass/_responsive.scss */
   .features article h1 {
     font-size: 2.3rem; }
 
-  /* line 237, ../components/sass/_responsive.scss */
+  /* line 277, ../components/sass/_responsive.scss */
   .merchants article h1 {
     font-size: 2.3rem; }
 
-  /* line 245, ../components/sass/_responsive.scss */
+  /* line 285, ../components/sass/_responsive.scss */
   .sell-anything article h1 {
     font-size: 2.3rem; }
 
-  /* line 252, ../components/sass/_responsive.scss */
+  /* line 292, ../components/sass/_responsive.scss */
   .get-started h1 {
     font-size: 2rem; } }
 @media (max-width: 25rem) {
-  /* line 260, ../components/sass/_responsive.scss */
+  /* line 300, ../components/sass/_responsive.scss */
   .wrap {
     width: 22rem; }
 
-  /* line 264, ../components/sass/_responsive.scss */
+  /* line 304, ../components/sass/_responsive.scss */
   .hero {
     background: url(../images/shopping-small.png) 0 0 no-repeat; }
 
-  /* line 270, ../components/sass/_responsive.scss */
+  /* line 310, ../components/sass/_responsive.scss */
   .platform article h1 {
     font-size: 2.3rem; }
-  /* line 274, ../components/sass/_responsive.scss */
+  /* line 314, ../components/sass/_responsive.scss */
   .platform article .wrapper {
     width: 80%; }
 
-  /* line 282, ../components/sass/_responsive.scss */
+  /* line 322, ../components/sass/_responsive.scss */
   .merchants article h1 {
     font-size: 2.3rem; }
 
-  /* line 290, ../components/sass/_responsive.scss */
+  /* line 330, ../components/sass/_responsive.scss */
   .features article h1 {
     font-size: 2.3rem; }
 
-  /* line 298, ../components/sass/_responsive.scss */
+  /* line 338, ../components/sass/_responsive.scss */
   .sell-anything article h1 {
     font-size: 2.3rem; }
-  /* line 302, ../components/sass/_responsive.scss */
+  /* line 342, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
     margin: 0 0rem; }
-    /* line 304, ../components/sass/_responsive.scss */
+    /* line 344, ../components/sass/_responsive.scss */
     .sell-anything article ul.product-icons li {
       width: 32%; }
-      /* line 306, ../components/sass/_responsive.scss */
+      /* line 346, ../components/sass/_responsive.scss */
       .sell-anything article ul.product-icons li img {
         max-width: 110px; }
 
-  /* line 315, ../components/sass/_responsive.scss */
+  /* line 355, ../components/sass/_responsive.scss */
   .get-started h1 {
     font-size: 2rem; } }
 @media (max-width: 20rem) {
-  /* line 323, ../components/sass/_responsive.scss */
+  /* line 363, ../components/sass/_responsive.scss */
   .wrap {
     width: 19rem; }
 
-  /* line 327, ../components/sass/_responsive.scss */
+  /* line 367, ../components/sass/_responsive.scss */
   nav.login-link {
     display: none; } }
 @media (max-width: 15rem) {
-  /* line 335, ../components/sass/_responsive.scss */
+  /* line 375, ../components/sass/_responsive.scss */
   .wrap {
     width: 12rem; }
 
-  /* line 339, ../components/sass/_responsive.scss */
+  /* line 379, ../components/sass/_responsive.scss */
   nav.login-link {
     display: none; } }
