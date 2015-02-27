@@ -6,7 +6,7 @@ header {
 
 /* Hero area */
 .hero {
-    background: url(../images/shopping-606993_1920.png) 0 0 no-repeat;
+    background: url(../images/shopping.png) 0 0 no-repeat;
     width: auto;
     height: 53.4rem;
     text-align: center;
@@ -222,3 +222,14 @@ footer {
         width:100%;
     }
 }
+
+.b-lazy {
+        -webkit-transition: opacity 500ms ease-in-out;
+           -moz-transition: opacity 500ms ease-in-out;
+             -o-transition: opacity 500ms ease-in-out;
+                transition: opacity 500ms ease-in-out;
+                 max-width: 100%;
+    }
+    .b-lazy.b-loaded {
+                   opacity: 1;
+    }

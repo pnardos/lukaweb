@@ -71,11 +71,14 @@ html {
 
 /* line 17, ../components/sass/_base.scss */
 .wrap {
+  overflow: hidden;
+  *zoom: 1;
   width: 66rem;
   margin: 0 auto;
+  display: block;
   padding: 1.5rem 0 0.5rem 0; }
 
-/* line 23, ../components/sass/_base.scss */
+/* line 25, ../components/sass/_base.scss */
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -83,12 +86,12 @@ body {
   line-height: 1.5;
   color: #3d3d3d; }
 
-/* line 31, ../components/sass/_base.scss */
+/* line 33, ../components/sass/_base.scss */
 img {
   max-width: 100%;
   height: auto; }
 
-/* line 36, ../components/sass/_base.scss */
+/* line 38, ../components/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
   font-weight: normal; }
@@ -410,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: color 0.2s; }
     /* line 237, ../components/sass/_layout.scss */
     .no-touch .cd-primary-nav a:hover {
-      color: #9acf3a; }
+      color: #f38630; }
   /* line 242, ../components/sass/_layout.scss */
   .cd-primary-nav .cd-label {
     color: #262626;
@@ -602,32 +605,43 @@ h1, h2, h3, h4, h5, h6 {
 .headroom--not-top {
   background: rgba(0, 0, 0, 0.7); }
 
+/* line 475, ../components/sass/_layout.scss */
+.nav-wrap {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  float: right; }
+
 /* Header, logo & navigation */
-/* line 477, ../components/sass/_layout.scss */
+/* line 483, ../components/sass/_layout.scss */
 header h1 {
-  display: inline; }
-/* line 481, ../components/sass/_layout.scss */
+  display: inline-block;
+  float: left; }
+  /* line 488, ../components/sass/_layout.scss */
+  header h1 a.luka-logo img {
+    max-width: 80%; }
+/* line 494, ../components/sass/_layout.scss */
 header nav.top-nav, header nav.main-nav, header nav.login-link {
   float: right; }
-  /* line 484, ../components/sass/_layout.scss */
+  /* line 497, ../components/sass/_layout.scss */
   header nav.top-nav ul, header nav.main-nav ul, header nav.login-link ul {
     margin: 0 0; }
-    /* line 487, ../components/sass/_layout.scss */
+    /* line 500, ../components/sass/_layout.scss */
     header nav.top-nav ul li, header nav.main-nav ul li, header nav.login-link ul li {
       float: left;
       /* Rectangle 7: */
       border: 1px solid #FFFFFF;
       border-radius: 3px;
       margin: 0 0 0 2rem;
-      padding: .5rem;
+      padding: .3rem;
       -moz-transition: border-color 0.2s;
       -o-transition: border-color 0.2s;
       -webkit-transition: border-color 0.2s;
       transition: border-color 0.2s; }
-      /* line 496, ../components/sass/_layout.scss */
+      /* line 509, ../components/sass/_layout.scss */
       header nav.top-nav ul li:hover, header nav.main-nav ul li:hover, header nav.login-link ul li:hover {
         border-color: #f38630; }
-      /* line 499, ../components/sass/_layout.scss */
+      /* line 512, ../components/sass/_layout.scss */
       header nav.top-nav ul li a, header nav.main-nav ul li a, header nav.login-link ul li a {
         font-family: "Lato", sans-serif;
         font-weight: 300;
@@ -644,26 +658,23 @@ header nav.top-nav, header nav.main-nav, header nav.login-link {
         -o-transition: color 0.2s;
         -webkit-transition: color 0.2s;
         transition: color 0.2s; }
-        /* line 514, ../components/sass/_layout.scss */
+        /* line 527, ../components/sass/_layout.scss */
         header nav.top-nav ul li a:hover, header nav.main-nav ul li a:hover, header nav.login-link ul li a:hover {
           color: #f38630;
           border: none; }
-        /* line 519, ../components/sass/_layout.scss */
-        header nav.top-nav ul li a:focus, header nav.main-nav ul li a:focus, header nav.login-link ul li a:focus {
-          color: #b3550a; }
-/* line 530, ../components/sass/_layout.scss */
+/* line 539, ../components/sass/_layout.scss */
 header nav.main-nav ul li {
   border: none;
   border-radius: 0;
   margin: 0 0 0 1rem; }
-  /* line 534, ../components/sass/_layout.scss */
+  /* line 543, ../components/sass/_layout.scss */
   header nav.main-nav ul li a {
     font-size: 1.1rem;
     padding: 0; }
 
 /* Hero banner area */
 /* background setup */
-/* line 551, ../components/sass/_layout.scss */
+/* line 560, ../components/sass/_layout.scss */
 .background {
   background-repeat: no-repeat;
   /* custom background-position */
@@ -671,26 +682,25 @@ header nav.main-nav ul li {
   /* ie8- graceful degradation */
   background-position: 50% 50% \9  !important; }
 
-/* line 559, ../components/sass/_layout.scss */
+/* line 568, ../components/sass/_layout.scss */
 .fullscreen {
   width: 100%;
   min-height: 100%; }
-  /* line 563, ../components/sass/_layout.scss */
+  /* line 572, ../components/sass/_layout.scss */
   .fullscreen article {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.72);
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 5rem 0 0 0; }
-    /* line 570, ../components/sass/_layout.scss */
+    /* line 579, ../components/sass/_layout.scss */
     .fullscreen article h1 {
       font-family: "Lato", sans-serif;
       font-size: 5rem;
-      font-weight: 100;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+      font-weight: 200;
       width: 50%;
       margin: 0 auto; }
-    /* line 579, ../components/sass/_layout.scss */
+    /* line 587, ../components/sass/_layout.scss */
     .fullscreen article p {
       font-family: "Lato", sans-serif;
       /* Manage products and : */
@@ -701,7 +711,7 @@ header nav.main-nav ul li {
       line-height: 2rem;
       width: 50%;
       margin: 0 auto 8rem auto; }
-    /* line 591, ../components/sass/_layout.scss */
+    /* line 599, ../components/sass/_layout.scss */
     .fullscreen article a {
       text-decoration: none;
       color: #ffffff;
@@ -717,19 +727,19 @@ header nav.main-nav ul li {
       margin: 0 0 0 0;
       padding: 1rem;
       display: inline-block; }
-      /* line 607, ../components/sass/_layout.scss */
+      /* line 615, ../components/sass/_layout.scss */
       .fullscreen article a span {
         text-transform: uppercase; }
 
 /* platform */
-/* line 615, ../components/sass/_layout.scss */
+/* line 623, ../components/sass/_layout.scss */
 .platform {
   overflow: hidden;
   *zoom: 1; }
-  /* line 618, ../components/sass/_layout.scss */
+  /* line 626, ../components/sass/_layout.scss */
   .platform article {
     margin: 5rem 0 0 0; }
-    /* line 621, ../components/sass/_layout.scss */
+    /* line 629, ../components/sass/_layout.scss */
     .platform article h1 {
       /* Ready to Get Started: */
       font-family: "Lato", sans-serif;
@@ -740,13 +750,13 @@ header nav.main-nav ul li {
       line-height: 66px;
       margin: 0 0 0 0;
       text-align: center; }
-    /* line 633, ../components/sass/_layout.scss */
+    /* line 641, ../components/sass/_layout.scss */
     .platform article .wrapper {
       float: none;
       width: 56%;
       padding: 0;
       margin: 0 auto; }
-    /* line 640, ../components/sass/_layout.scss */
+    /* line 648, ../components/sass/_layout.scss */
     .platform article p {
       /* We believe that your: */
       font-family: "Lato", sans-serif;
@@ -756,26 +766,26 @@ header nav.main-nav ul li {
       letter-spacing: 0.4px;
       line-height: 1.7rem;
       margin: 1rem 0; }
-    /* line 651, ../components/sass/_layout.scss */
+    /* line 659, ../components/sass/_layout.scss */
     .platform article img {
       float: none;
       display: block;
-      width: auto;
+      width: 82%;
       margin: 0 auto; }
 
 /* Merchnats Rely on us to sell */
-/* line 663, ../components/sass/_layout.scss */
+/* line 671, ../components/sass/_layout.scss */
 .merchants {
   overflow: hidden;
   *zoom: 1; }
-  /* line 666, ../components/sass/_layout.scss */
+  /* line 674, ../components/sass/_layout.scss */
   .merchants article {
     margin: 0rem 0 0 0;
     background-color: #f2f2f2;
     border: 1px solid #EBEBEB;
     text-align: center;
     padding: 5rem; }
-    /* line 672, ../components/sass/_layout.scss */
+    /* line 680, ../components/sass/_layout.scss */
     .merchants article h1 {
       /* Ready to Get Started: */
       font-family: "Lato", sans-serif;
@@ -786,11 +796,11 @@ header nav.main-nav ul li {
       line-height: 66px;
       margin: 0 0 4rem 0;
       text-align: center; }
-    /* line 684, ../components/sass/_layout.scss */
+    /* line 692, ../components/sass/_layout.scss */
     .merchants article .wrapper {
       float: left;
       width: 40%; }
-    /* line 689, ../components/sass/_layout.scss */
+    /* line 697, ../components/sass/_layout.scss */
     .merchants article p {
       /* We believe that your: */
       font-family: "Lato", sans-serif;
@@ -800,27 +810,27 @@ header nav.main-nav ul li {
       letter-spacing: 0.92px;
       line-height: 30px;
       margin: 0 0 1rem 0; }
-    /* line 700, ../components/sass/_layout.scss */
+    /* line 708, ../components/sass/_layout.scss */
     .merchants article img {
       float: right;
       display: block; }
 
 /* Features */
-/* line 710, ../components/sass/_layout.scss */
+/* line 718, ../components/sass/_layout.scss */
 .features {
   overflow: hidden;
   *zoom: 1; }
-  /* line 713, ../components/sass/_layout.scss */
+  /* line 721, ../components/sass/_layout.scss */
   .features article {
     margin: 0 0;
     text-align: center;
     padding: 0rem 5rem 5rem 5rem; }
-    /* line 718, ../components/sass/_layout.scss */
+    /* line 726, ../components/sass/_layout.scss */
     .features article.feature-tabs {
       padding: 0;
       margin: 0 0 5rem 0;
       border-bottom: 1px solid #EBEBEB; }
-    /* line 723, ../components/sass/_layout.scss */
+    /* line 731, ../components/sass/_layout.scss */
     .features article h1 {
       /* Ready to Get Started: */
       font-family: "Lato", sans-serif;
@@ -831,11 +841,11 @@ header nav.main-nav ul li {
       line-height: 66px;
       margin: 5rem 0 4rem 0;
       text-align: center; }
-    /* line 735, ../components/sass/_layout.scss */
+    /* line 743, ../components/sass/_layout.scss */
     .features article .wrapper {
       float: left;
       width: 40%; }
-    /* line 740, ../components/sass/_layout.scss */
+    /* line 748, ../components/sass/_layout.scss */
     .features article p {
       /* We believe that your: */
       font-family: "Lato", sans-serif;
@@ -849,23 +859,23 @@ header nav.main-nav ul li {
       padding: 0 8rem;
       width: auto;
       display: inline-block; }
-    /* line 755, ../components/sass/_layout.scss */
+    /* line 763, ../components/sass/_layout.scss */
     .features article div.image-wrapper {
       display: inline-block;
       clear: both;
       width: auto;
       margin: 0 auto; }
-    /* line 762, ../components/sass/_layout.scss */
+    /* line 770, ../components/sass/_layout.scss */
     .features article img {
       float: right;
       display: block; }
 
 /* Sell Anything */
-/* line 772, ../components/sass/_layout.scss */
+/* line 780, ../components/sass/_layout.scss */
 .sell-anything {
   overflow: hidden;
   *zoom: 1; }
-  /* line 775, ../components/sass/_layout.scss */
+  /* line 783, ../components/sass/_layout.scss */
   .sell-anything article h1 {
     /* Ready to Get Started: */
     font-family: "Lato", sans-serif;
@@ -876,10 +886,10 @@ header nav.main-nav ul li {
     line-height: 66px;
     margin: 0 0 3rem 0;
     text-align: center; }
-  /* line 787, ../components/sass/_layout.scss */
+  /* line 795, ../components/sass/_layout.scss */
   .sell-anything article ul.product-icons {
     margin: 0 2rem; }
-    /* line 790, ../components/sass/_layout.scss */
+    /* line 798, ../components/sass/_layout.scss */
     .sell-anything article ul.product-icons li {
       display: inline-block;
       width: 33%;
@@ -891,14 +901,14 @@ header nav.main-nav ul li {
       max-height: 30rem;
       vertical-align: middle;
       white-space: nowrap; }
-      /* line 801, ../components/sass/_layout.scss */
+      /* line 809, ../components/sass/_layout.scss */
       .sell-anything article ul.product-icons li img {
         vertical-align: middle;
         max-height: 80px;
         max-width: 160px; }
 
 /* Get Started */
-/* line 813, ../components/sass/_layout.scss */
+/* line 821, ../components/sass/_layout.scss */
 .get-started {
   /* Rectangle 11: */
   overflow: hidden;
@@ -909,7 +919,7 @@ header nav.main-nav ul li {
   text-align: center;
   padding: 5rem;
   margin: 0 0 6rem 0; }
-  /* line 823, ../components/sass/_layout.scss */
+  /* line 831, ../components/sass/_layout.scss */
   .get-started h1 {
     /* Ready to Get Started: */
     font-family: "Lato", sans-serif;
@@ -919,7 +929,7 @@ header nav.main-nav ul li {
     letter-spacing: 0.85px;
     line-height: 66px;
     margin: 0 0 3rem 0; }
-  /* line 834, ../components/sass/_layout.scss */
+  /* line 842, ../components/sass/_layout.scss */
   .get-started a {
     /* Rectangle 7: */
     background: #F38630;
@@ -935,12 +945,12 @@ header nav.main-nav ul li {
     padding: 1rem;
     text-decoration: none;
     display: inline-block; }
-    /* line 850, ../components/sass/_layout.scss */
+    /* line 858, ../components/sass/_layout.scss */
     .get-started a span {
       text-transform: uppercase; }
 
 /* Footer */
-/* line 858, ../components/sass/_layout.scss */
+/* line 866, ../components/sass/_layout.scss */
 footer nav.social-nav {
   display: inline-block;
   overflow: hidden;
@@ -948,12 +958,12 @@ footer nav.social-nav {
   margin: 1rem auto 2rem auto;
   width: auto;
   text-align: center; }
-  /* line 865, ../components/sass/_layout.scss */
+  /* line 873, ../components/sass/_layout.scss */
   footer nav.social-nav ul li {
     float: left;
     display: block;
     margin: 0 1rem; }
-    /* line 869, ../components/sass/_layout.scss */
+    /* line 877, ../components/sass/_layout.scss */
     footer nav.social-nav ul li a {
       display: inline-block;
       width: auto;
@@ -969,7 +979,7 @@ header {
 /* Hero area */
 /* line 8, ../components/sass/_modules.scss */
 .hero {
-  background: url(../images/shopping-606993_1920.png) 0 0 no-repeat;
+  background: url(../images/shopping.png) 0 0 no-repeat;
   width: auto;
   height: 53.4rem;
   text-align: center;
@@ -1242,6 +1252,18 @@ footer {
   100% {
     opacity: 1;
     width: 100%; } }
+/* line 226, ../components/sass/_modules.scss */
+.b-lazy {
+  -webkit-transition: opacity 500ms ease-in-out;
+  -moz-transition: opacity 500ms ease-in-out;
+  -o-transition: opacity 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
+  max-width: 100%; }
+
+/* line 233, ../components/sass/_modules.scss */
+.b-lazy.b-loaded {
+  opacity: 1; }
+
 @media (max-width: 80rem) {
   /* line 2, ../components/sass/_responsive.scss */
   .top-nav {
@@ -1255,92 +1277,224 @@ footer {
   .wrap {
     width: 62rem; }
 
-  /* line 16, ../components/sass/_responsive.scss */
+  /* line 18, ../components/sass/_responsive.scss */
+  .fullscreen article h1 {
+    width: 60%; }
+
+  /* line 24, ../components/sass/_responsive.scss */
   .tabs ul li {
     margin: 0 4rem 0 0; }
 
-  /* line 20, ../components/sass/_responsive.scss */
+  /* line 28, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 65rem) {
-  /* line 26, ../components/sass/_responsive.scss */
+  /* line 34, ../components/sass/_responsive.scss */
   .wrap {
     width: 55rem; }
 
-  /* line 30, ../components/sass/_responsive.scss */
+  /* line 38, ../components/sass/_responsive.scss */
+  .hero {
+    background: url(../images/shopping-medium.png) 0 0 no-repeat; }
+
+  /* line 44, ../components/sass/_responsive.scss */
+  .fullscreen article h1 {
+    width: 70%; }
+
+  /* line 50, ../components/sass/_responsive.scss */
   .top-nav {
     display: none; }
 
-  /* line 34, ../components/sass/_responsive.scss */
+  /* line 54, ../components/sass/_responsive.scss */
   .tabs ul li {
     margin: 0 1.6rem 0 1rem; }
 
-  /* line 38, ../components/sass/_responsive.scss */
+  /* line 58, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 58rem) {
-  /* line 45, ../components/sass/_responsive.scss */
+  /* line 65, ../components/sass/_responsive.scss */
   .wrap {
     width: 50rem; }
 
-  /* line 49, ../components/sass/_responsive.scss */
+  /* line 69, ../components/sass/_responsive.scss */
   .top-nav {
     display: block; }
 
-  /* line 53, ../components/sass/_responsive.scss */
+  /* line 73, ../components/sass/_responsive.scss */
   .main-nav {
     display: none; }
 
-  /* line 57, ../components/sass/_responsive.scss */
+  /* line 79, ../components/sass/_responsive.scss */
+  .fullscreen article h1 {
+    font-size: 3.5rem;
+    width: 50%;
+    margin: 1rem auto 0 auto; }
+  /* line 85, ../components/sass/_responsive.scss */
+  .fullscreen article p {
+    font-size: 1.1rem;
+    width: 80%;
+    margin: 1rem auto 8rem auto; }
+
+  /* line 95, ../components/sass/_responsive.scss */
+  .platform article h1 {
+    font-size: 2.3rem; }
+  /* line 99, ../components/sass/_responsive.scss */
+  .platform article .wrapper {
+    width: 66%; }
+
+  /* line 107, ../components/sass/_responsive.scss */
+  .sell-anything article ul.product-icons {
+    margin: 0 -5rem; }
+
+  /* line 113, ../components/sass/_responsive.scss */
   .tabs ul li {
     margin: 0 1.6rem 0 0; }
 
-  /* line 61, ../components/sass/_responsive.scss */
+  /* line 117, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 52rem) {
-  /* line 67, ../components/sass/_responsive.scss */
+  /* line 123, ../components/sass/_responsive.scss */
   .wrap {
-    width: 36rem; }
+    width: 46rem; }
 
-  /* line 71, ../components/sass/_responsive.scss */
+  /* line 129, ../components/sass/_responsive.scss */
+  .fullscreen article h1 {
+    font-size: 3rem; }
+
+  /* line 135, ../components/sass/_responsive.scss */
   .feature-tabs {
     display: none; }
 
-  /* line 77, ../components/sass/_responsive.scss */
-  .feature-col ul li {
-    overflow: hidden;
-    *zoom: 1;
+  /* line 140, ../components/sass/_responsive.scss */
+  .features article.feature-col {
     display: block;
-    margin: 0 0 6rem 0; }
-    /* line 82, ../components/sass/_responsive.scss */
-    .feature-col ul li h2 {
-      color: rgba(75, 91, 102, 0.85);
-      font-family: "Lato", sans-serif;
-      font-weight: 500;
-      font-size: 1.3rem;
-      letter-spacing: 0.05rem; }
-    /* line 90, ../components/sass/_responsive.scss */
-    .feature-col ul li p {
-      width: 100%;
-      padding: 0; } }
-@media (max-width: 37.5rem) {
-  /* line 100, ../components/sass/_responsive.scss */
+    padding: 0; }
+    /* line 144, ../components/sass/_responsive.scss */
+    .features article.feature-col ul li {
+      overflow: hidden;
+      *zoom: 1;
+      display: block;
+      margin: 0 0 6rem 0; }
+      /* line 149, ../components/sass/_responsive.scss */
+      .features article.feature-col ul li h2 {
+        color: rgba(75, 91, 102, 0.85);
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 1.3rem;
+        letter-spacing: 0.05rem; }
+      /* line 157, ../components/sass/_responsive.scss */
+      .features article.feature-col ul li p {
+        width: 100%;
+        padding: 0; } }
+@media (max-width: 46rem) {
+  /* line 168, ../components/sass/_responsive.scss */
   .wrap {
-    width: 28rem; } }
+    width: 38rem; }
+
+  /* line 174, ../components/sass/_responsive.scss */
+  .fullscreen article h1 {
+    font-size: 2.5rem;
+    width: 80%; }
+
+  /* line 183, ../components/sass/_responsive.scss */
+  .sell-anything article ul.product-icons {
+    margin: 0 -2rem; }
+    /* line 185, ../components/sass/_responsive.scss */
+    .sell-anything article ul.product-icons li {
+      width: 32%; }
+      /* line 188, ../components/sass/_responsive.scss */
+      .sell-anything article ul.product-icons li img {
+        max-width: 110px; } }
+@media (max-width: 38rem) {
+  /* line 199, ../components/sass/_responsive.scss */
+  .wrap {
+    width: 34rem; } }
+@media (max-width: 34rem) {
+  /* line 205, ../components/sass/_responsive.scss */
+  .wrap {
+    width: 30rem; } }
 @media (max-width: 30rem) {
-  /* line 107, ../components/sass/_responsive.scss */
+  /* line 211, ../components/sass/_responsive.scss */
   .wrap {
-    width: 25rem; } }
+    width: 25rem; }
+
+  /* line 217, ../components/sass/_responsive.scss */
+  .platform article h1 {
+    font-size: 2.3rem; }
+  /* line 221, ../components/sass/_responsive.scss */
+  .platform article .wrapper {
+    width: 80%; }
+
+  /* line 229, ../components/sass/_responsive.scss */
+  .features article h1 {
+    font-size: 2.3rem; }
+
+  /* line 237, ../components/sass/_responsive.scss */
+  .merchants article h1 {
+    font-size: 2.3rem; }
+
+  /* line 245, ../components/sass/_responsive.scss */
+  .sell-anything article h1 {
+    font-size: 2.3rem; }
+
+  /* line 252, ../components/sass/_responsive.scss */
+  .get-started h1 {
+    font-size: 2rem; } }
 @media (max-width: 25rem) {
-  /* line 114, ../components/sass/_responsive.scss */
+  /* line 260, ../components/sass/_responsive.scss */
   .wrap {
-    width: 22rem; } }
+    width: 22rem; }
+
+  /* line 264, ../components/sass/_responsive.scss */
+  .hero {
+    background: url(../images/shopping-small.png) 0 0 no-repeat; }
+
+  /* line 270, ../components/sass/_responsive.scss */
+  .platform article h1 {
+    font-size: 2.3rem; }
+  /* line 274, ../components/sass/_responsive.scss */
+  .platform article .wrapper {
+    width: 80%; }
+
+  /* line 282, ../components/sass/_responsive.scss */
+  .merchants article h1 {
+    font-size: 2.3rem; }
+
+  /* line 290, ../components/sass/_responsive.scss */
+  .features article h1 {
+    font-size: 2.3rem; }
+
+  /* line 298, ../components/sass/_responsive.scss */
+  .sell-anything article h1 {
+    font-size: 2.3rem; }
+  /* line 302, ../components/sass/_responsive.scss */
+  .sell-anything article ul.product-icons {
+    margin: 0 0rem; }
+    /* line 304, ../components/sass/_responsive.scss */
+    .sell-anything article ul.product-icons li {
+      width: 32%; }
+      /* line 306, ../components/sass/_responsive.scss */
+      .sell-anything article ul.product-icons li img {
+        max-width: 110px; }
+
+  /* line 315, ../components/sass/_responsive.scss */
+  .get-started h1 {
+    font-size: 2rem; } }
 @media (max-width: 20rem) {
-  /* line 121, ../components/sass/_responsive.scss */
+  /* line 323, ../components/sass/_responsive.scss */
   .wrap {
     width: 19rem; }
 
-  /* line 125, ../components/sass/_responsive.scss */
+  /* line 327, ../components/sass/_responsive.scss */
+  nav.login-link {
+    display: none; } }
+@media (max-width: 15rem) {
+  /* line 335, ../components/sass/_responsive.scss */
+  .wrap {
+    width: 12rem; }
+
+  /* line 339, ../components/sass/_responsive.scss */
   nav.login-link {
     display: none; } }

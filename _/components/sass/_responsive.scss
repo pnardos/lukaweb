@@ -13,6 +13,14 @@
     width: 62rem; 
   }
   
+  .fullscreen {
+    article {
+      h1 {
+        width: 60%;
+      }
+    }
+   } //fullscreen heading
+  
   .tabs ul li {
     margin: 0 4rem 0 0;
   }
@@ -26,6 +34,18 @@
   .wrap {
     width: 55rem; 
   }
+  
+  .hero {
+    background: url(../images/shopping-medium.png) 0 0 no-repeat;
+  }
+  
+  .fullscreen {
+    article {
+      h1 {
+        width: 70%;
+      }
+    }
+   } //fullscreen heading
   
   .top-nav {
     display: none;
@@ -54,6 +74,42 @@
     display: none;
   }
   
+   .fullscreen {
+    article {
+      h1 {
+        font-size: 3.5rem;
+        width: 50%;
+        margin: 1rem auto 0 auto;
+      }
+      
+      p {
+        font-size: 1.1rem;
+        width: 80%;
+        margin: 1rem auto 8rem auto;
+      }
+    }
+   } //fullscreen heading
+  
+  .platform {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      }
+      
+      .wrapper {
+        width: 66%;
+      }
+    }
+   } //platform
+  
+  .sell-anything {
+    article {
+      ul.product-icons {
+        margin: 0 -5rem;
+      }
+    }
+   } //sell anything
+  
   .tabs ul li {
     margin: 0 1.6rem 0 0;
   }
@@ -65,48 +121,138 @@
 
 @media (max-width: 52rem) {  
    .wrap {
-    width: 36rem;
+    width: 46rem;
   }
+  
+  .fullscreen {
+    article {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+   } //fullscreen heading
   
   .feature-tabs {
     display: none;
   }
   
-  .feature-col {
-      ul {
-        li {
-          @include clearfix;
-          display: block;
-          margin: 0 0 6rem 0;
-          
-          h2 {
-           color: rgba(75, 91, 102, 0.85);
-            font-family: $font-secondary;
-            font-weight: 500;
-            font-size: 1.3rem;
-            letter-spacing: 0.05rem;
-          } //h2 heading
-          
-          p {
-            width: 100%;
-            padding: 0;
-          } //paragraph
-        } //li
-      } //ul 
-  } //features column
+  .features {
+    article.feature-col {
+      display: block;
+      padding: 0;
+        ul {
+          li {
+            @include clearfix;
+            display: block;
+            margin: 0 0 6rem 0;
+
+            h2 {
+             color: rgba(75, 91, 102, 0.85);
+              font-family: $font-secondary;
+              font-weight: 500;
+              font-size: 1.3rem;
+              letter-spacing: 0.05rem;
+            } //h2 heading
+
+            p {
+              width: 100%;
+              padding: 0;
+            } //paragraph
+          } //li
+        } //ul 
+    } //features column
+  } //features wrap
 } //media query
 
-@media (max-width: 37.5rem) {
+@media (max-width: 46rem) {
   .wrap {
-    width: 28rem;
+    width: 38rem;
   }
+  
+  .fullscreen {
+    article {
+      h1 {
+        font-size: 2.5rem;
+        width: 80%;
+      }
+    }
+   } //fullscreen heading
+  
+  .sell-anything {
+    article {
+      ul.product-icons {
+        margin: 0 -2rem;
+        li {
+          width: 32%;
+          
+          img {
+            max-width: 110px;
+          } //img
+        } //li
+      } //ul
+    } //article
+   } //sell anything
 }
 
+
+@media (max-width: 38rem){
+  .wrap {
+    width: 34rem;
+  }
+} //small devices media query
+
+@media (max-width: 34rem){
+  .wrap {
+    width: 30rem;
+  }
+} //small devices media query
 
 @media (max-width: 30rem){
   .wrap {
     width: 25rem;
   }
+  
+  .platform {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      }
+      
+      .wrapper {
+        width: 80%;
+      }
+    }
+   } //platform
+  
+  .features {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      } //h1 heading
+    } //article
+   } //features
+  
+   .merchants {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      } //h1 heading
+    } //article
+   } //merchants
+  
+   .sell-anything {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      }
+    }
+   } //sell anything
+  
+  .get-started {
+      h1 {
+        font-size: 2rem;
+      } //h1 heading
+   } //get started
 } //small devices media query
 
 // Smallest common viewport ----------------------
@@ -114,12 +260,80 @@
  .wrap {
     width: 22rem;
   }
+  
+  .hero {
+    background: url(../images/shopping-small.png) 0 0 no-repeat;
+  }
+  
+  .platform {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      }
+      
+      .wrapper {
+        width: 80%;
+      }
+    }
+   } //platform
+  
+  .merchants {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      } //h1 heading
+    } //article
+   } //merchants
+  
+  .features {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      } //h1 heading
+    } //article
+   } //features
+  
+  .sell-anything {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      }
+      
+      ul.product-icons {
+        margin: 0 0rem;
+        li {
+          width: 32%;
+          img {
+            max-width: 110px;
+          } //image
+        } //li
+      } //ul
+    } //article
+   } //sell anything
+  
+  .get-started {
+      h1 {
+        font-size: 2rem;
+      } //h1 heading
+   } //get started
 } // smallest width
 
 // Smallest common viewport ----------------------
 @media (max-width: 20rem) {
  .wrap {
     width: 19rem;
+  }
+  
+  nav.login-link {
+    display: none;
+  }
+
+} // smallest width
+
+// Smallest common viewport ----------------------
+@media (max-width: 15rem) {
+ .wrap {
+    width: 12rem;
   }
   
   nav.login-link {

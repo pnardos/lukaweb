@@ -472,11 +472,24 @@ $L:     1170px;
     background: rgba(0,0,0,0.7); 
 }
 
+.nav-wrap {
+	@include clearfix;
+	display: block;
+	float: right;
+}
+
 /* Header, logo & navigation */
 header {
     h1 {
-      display: inline;  
-    }
+      display: inline-block;
+	  float: left;
+		
+		 a.luka-logo {
+		    img { 
+			  max-width: 80%;
+			} //img	 
+         } //link
+    } //h1 heading
     
     nav.top-nav {
         float: right;
@@ -490,7 +503,7 @@ header {
                 border: 1px solid #FFFFFF;
                 border-radius: 3px;
                 margin: 0 0 0 2rem;
-                padding: .5rem;
+                padding: .3rem;
 				@include transition(border-color .2s);
 				
 				&:hover {
@@ -514,10 +527,6 @@ header {
 					&:hover {
 					   color: $orange;
 					   border: none;	
-					}
-					
-					&:focus {
-					   color: darken($orange, 20%);	
 					}
                 } //links
             } //li
@@ -561,7 +570,7 @@ header {
     min-height:100%;
     
     article {
-        background: rgba(0,0,0,.4);
+        background: rgba(0,0,0,.72);
         width: 100%;
         height: 100%;
         margin: 0;
@@ -570,8 +579,7 @@ header {
         h1 {
             font-family: $font-secondary;
             font-size: 5rem;
-            font-weight: 100;
-			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.65);
+            font-weight: 200;
             width: 50%;
             margin: 0 auto;
         } //h1 header
@@ -651,7 +659,7 @@ header {
     img {
       float: none;
       display: block;
-	  width: auto;
+	  width: 82%;
       margin: 0 auto;
     }
     
