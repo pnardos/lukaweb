@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 /* line 353, ../components/sass/_layout.scss */
 .header {
-  background: #ffffff;
+  background: transparent;
   padding: 2rem 0; }
 
 /* line 358, ../components/sass/_layout.scss */
