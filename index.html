@@ -64,7 +64,7 @@
 		</ul>
 	</nav><!-- popout navigation -->
 	<!-- header -->
-	<section class="hero fullscreen background b-lazy" data-img-width="1600" data-img-height="1064" data-src="_/images/shopping.png">
+	<section class="hero fullscreen">
 		<article>
 			<div class="wow fadeIn">
 				<h1>Power your shop In-store &amp; Online.</h1>
@@ -213,32 +213,32 @@
 				<li class="wow fadeInUp">
 					<h2>Facebook Shop</h2>
 					<p>Sell to all your page fans on Facebook. Convert your likes to sales.</p>
-					<div><img class="b-lazy" data-src="_/images/facebook-shop-app.png" src="_/images/facebook-shop-app.png" alt="Facebook shop application"></div>
+					<div><img alt="Facebook shop application"></div>
 				</li>
 				<li class="wow fadeInUp">
 					<h2>One shop, One backend</h2>
 					<p>Manage all your products with a simple and complete backend. Receive orders from customers and fulfill them in a timely manner</p>
-					<div><img class="b-lazy" data-src="_/images/one-backend.png" src="_/images/one-backend.png" alt="One shop, One backend"></div>
+					<div><img src="_/images/one-backend.png" alt="One shop, One backend"></div>
 				</li>
 				<li class="wow fadeInUp">
 					<h2>POS</h2>
 					<p>Sell your products in your store with our POS app for Android.</p>
-					<div><img class="b-lazy" data-src="_/images/pos.png" src="_/images/pos.png" alt="Point of slae android app"></div>
+					<div><img src="_/images/pos.png" alt="Point of slae android app"></div>
 				</li>
 				<li class="wow fadeInUp">
 					<h2>Reports</h2>
 					<p>Take another look at your shop through the use of our reports. Track your sales over time. Find out which products are most popular.</p>
-					<div><img class="b-lazy" data-src="_/images/reports.png" src="_/images/reports.png" alt="Shop reports"></div>
+					<div><img src="_/images/reports.png" alt="Shop reports"></div>
 				</li>
 				<li class="wow fadeInUp">
 					<h2>Free Setup</h2>
 					<p>It's free to setup your shop and upload your products. We only charge a small commission whenever you make a sale.</p>
-					<div><img class="b-lazy" data-src="_/images/free-setup.png" src="_/images/free-setup.png" alt="Free shop registration and setup"></div>
+					<div><img src="_/images/free-setup.png" alt="Free shop registration and setup"></div>
 				</li>
 				<li class="wow fadeInUp">
 					<h2>Tried &amp; Tested</h2>
 					<p>We have test coverage for 100% of our server side code to ensure that we are able to deliver the best service to you. We take this very seriously.</p>
-					<div><img class="b-lazy" data-src="_/images/source-code.png" src="_/images/source-code.png" alt="Tested server side code"></div>
+					<div><img src="_/images/source-code.png" alt="Tested server side code"></div>
 				</li>
 			</ul>
 		</article>
@@ -483,6 +483,25 @@
             var bLazy = new Blazy();
         })();
     </script>
+    <script>
+  // To attach Backstrech as the body's background
+  // $.backstretch("path/to/image.jpg");
+
+  // You may also attach Backstretch to a block-level element
+  $(".fullscreen").backstretch([
+               "_/images/shopping.png"
+            ], {
+                fade: 750,
+                lazyload: true
+           });
+
+  // Or, to start a slideshow, just pass in an array of images
+  // $(".foo").backstretch([
+  //  "path/to/image.jpg",
+  //  "path/to/image2.jpg",
+  //  "path/to/image3.jpg"    
+  // ], {duration: 4000});
+</script>
 	<script src="http://localhost:35729/livereload.js"></script>
 
 </body>
