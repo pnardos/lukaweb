@@ -1258,9 +1258,10 @@ footer {
   -moz-transition: opacity 500ms ease-in-out;
   -o-transition: opacity 500ms ease-in-out;
   transition: opacity 500ms ease-in-out;
-  max-width: 100%; }
+  max-width: 100%;
+  opacity: 0; }
 
-/* line 233, ../components/sass/_modules.scss */
+/* line 234, ../components/sass/_modules.scss */
 .b-lazy.b-loaded {
   opacity: 1; }
 
