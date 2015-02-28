@@ -1264,7 +1264,7 @@ footer {
 .b-lazy.b-loaded {
   opacity: 1; }
 
-@media (min-width: 81rem) and (max-width: 180rem) {
+@media (min-width: 80.01rem) and (max-width: 180rem) {
   /* line 2, ../components/sass/_responsive.scss */
   .top-nav {
     display: none; }
@@ -1368,7 +1368,7 @@ footer {
 
   /* line 147, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
-    margin: 0 -5rem 0 -1rem; }
+    margin: 0 -1rem 0 -1rem; }
 
   /* line 153, ../components/sass/_responsive.scss */
   .tabs ul li {
@@ -1423,7 +1423,7 @@ footer {
 
   /* line 223, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
-    margin: 0 -2rem; }
+    margin: 0; }
     /* line 225, ../components/sass/_responsive.scss */
     .sell-anything article ul.product-icons li {
       width: 24%; }
