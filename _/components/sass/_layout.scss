@@ -757,7 +757,7 @@ header {
     background-color: none;
     /*border: 1px solid $border-color;*/
     text-align: center;
-    padding: 5rem;
+    padding: 1rem;
     h1 {
       /* Ready to Get Started: */
     font-family: $font-secondary;
@@ -777,6 +777,18 @@ header {
          width: 20px;
          height: 15px;
 }
+	  
+	  .svg-container {
+		    display: inline-block;
+			position: relative;
+		    margin: 0 auto;
+			width: 100%;
+			
+		  
+		   object {
+			   width: 100%;
+            } /* Required to make image fluid in IE */
+	}
     
     .wrapper {
       float: left;
