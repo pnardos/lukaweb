@@ -856,10 +856,20 @@ header nav.login-link ul li {
       margin: 0 0 4rem 0;
       text-align: center; }
     /* line 773, ../components/sass/_layout.scss */
+    .merchants article .fallback {
+      background: none;
+      background-image: none;
+      display: none; }
+    /* line 775, ../components/sass/_layout.scss */
+    .merchants article .merchants-rely {
+      background: url(../images/merchants-rely-on-us.png);
+      width: 20px;
+      height: 15px; }
+    /* line 781, ../components/sass/_layout.scss */
     .merchants article .wrapper {
       float: left;
       width: 40%; }
-    /* line 778, ../components/sass/_layout.scss */
+    /* line 786, ../components/sass/_layout.scss */
     .merchants article p {
       /* We believe that your: */
       font-family: "Lato", sans-serif;
@@ -869,27 +879,27 @@ header nav.login-link ul li {
       letter-spacing: 0.92px;
       line-height: 30px;
       margin: 0 0 1rem 0; }
-    /* line 789, ../components/sass/_layout.scss */
+    /* line 797, ../components/sass/_layout.scss */
     .merchants article img {
       float: right;
       display: block; }
 
 /* Features */
-/* line 799, ../components/sass/_layout.scss */
+/* line 807, ../components/sass/_layout.scss */
 .features {
   overflow: hidden;
   *zoom: 1; }
-  /* line 802, ../components/sass/_layout.scss */
+  /* line 810, ../components/sass/_layout.scss */
   .features article {
     margin: 0 0;
     text-align: center;
     padding: 0rem 5rem 5rem 5rem; }
-    /* line 807, ../components/sass/_layout.scss */
+    /* line 815, ../components/sass/_layout.scss */
     .features article.feature-tabs {
       padding: 0;
       margin: 0 0 5rem 0;
       border-bottom: 1px solid #EBEBEB; }
-    /* line 812, ../components/sass/_layout.scss */
+    /* line 820, ../components/sass/_layout.scss */
     .features article h1 {
       /* Ready to Get Started: */
       font-family: "Lato", sans-serif;
@@ -900,11 +910,11 @@ header nav.login-link ul li {
       line-height: 66px;
       margin: 5rem 0 4rem 0;
       text-align: center; }
-    /* line 824, ../components/sass/_layout.scss */
+    /* line 832, ../components/sass/_layout.scss */
     .features article .wrapper {
       float: left;
       width: 40%; }
-    /* line 829, ../components/sass/_layout.scss */
+    /* line 837, ../components/sass/_layout.scss */
     .features article p {
       /* We believe that your: */
       font-family: "Lato", sans-serif;
@@ -918,30 +928,30 @@ header nav.login-link ul li {
       padding: 0 8rem;
       width: auto;
       display: inline-block; }
-    /* line 844, ../components/sass/_layout.scss */
+    /* line 852, ../components/sass/_layout.scss */
     .features article div.image-wrapper {
       display: inline-block;
       clear: both;
       width: auto;
       margin: 0 auto; }
-    /* line 851, ../components/sass/_layout.scss */
+    /* line 859, ../components/sass/_layout.scss */
     .features article img {
       float: right;
       display: block; }
 
 /* Pricing */
-/* line 861, ../components/sass/_layout.scss */
+/* line 869, ../components/sass/_layout.scss */
 .pricing {
   overflow: hidden;
   *zoom: 1; }
-  /* line 864, ../components/sass/_layout.scss */
+  /* line 872, ../components/sass/_layout.scss */
   .pricing article {
     margin: 0rem 0 0 0;
     background-color: none;
     /*border: 1px solid $border-color;*/
     text-align: center;
     padding: 0 5rem 5rem 5rem; }
-    /* line 871, ../components/sass/_layout.scss */
+    /* line 879, ../components/sass/_layout.scss */
     .pricing article div.separator {
       overflow: hidden;
       *zoom: 1;
@@ -951,7 +961,7 @@ header nav.login-link ul li {
       height: 1px;
       width: 6%;
       display: block; }
-    /* line 881, ../components/sass/_layout.scss */
+    /* line 889, ../components/sass/_layout.scss */
     .pricing article h1 {
       /* Ready to Get Started: */
       font-family: "Lato", sans-serif;
@@ -962,11 +972,11 @@ header nav.login-link ul li {
       line-height: 66px;
       margin: 0 0 2rem 0;
       text-align: center; }
-    /* line 893, ../components/sass/_layout.scss */
+    /* line 901, ../components/sass/_layout.scss */
     .pricing article .wrapper {
       float: left;
       width: 40%; }
-    /* line 898, ../components/sass/_layout.scss */
+    /* line 906, ../components/sass/_layout.scss */
     .pricing article .dollar {
       display: inline-block;
       margin: 0 0 2rem 0;
@@ -977,7 +987,7 @@ header nav.login-link ul li {
       line-height: 4.6rem;
       font-size: 2.5rem;
       color: #9acf3a; }
-    /* line 910, ../components/sass/_layout.scss */
+    /* line 918, ../components/sass/_layout.scss */
     .pricing article p {
       /* We believe that your: */
       font-family: "Lato", sans-serif;
@@ -988,17 +998,17 @@ header nav.login-link ul li {
       line-height: 30px;
       margin: 0 auto 1rem auto;
       width: 45%; }
-    /* line 922, ../components/sass/_layout.scss */
+    /* line 930, ../components/sass/_layout.scss */
     .pricing article img {
       float: right;
       display: block; }
 
 /* Sell Anything */
-/* line 932, ../components/sass/_layout.scss */
+/* line 940, ../components/sass/_layout.scss */
 .sell-anything {
   overflow: hidden;
   *zoom: 1; }
-  /* line 935, ../components/sass/_layout.scss */
+  /* line 943, ../components/sass/_layout.scss */
   .sell-anything article h1 {
     /* Ready to Get Started: */
     font-family: "Lato", sans-serif;
@@ -1009,10 +1019,10 @@ header nav.login-link ul li {
     line-height: 66px;
     margin: 0 0 3rem 0;
     text-align: center; }
-  /* line 947, ../components/sass/_layout.scss */
+  /* line 955, ../components/sass/_layout.scss */
   .sell-anything article ul.product-icons {
     margin: 0 1rem 0 4rem; }
-    /* line 950, ../components/sass/_layout.scss */
+    /* line 958, ../components/sass/_layout.scss */
     .sell-anything article ul.product-icons li {
       display: inline-block;
       width: 13%;
@@ -1024,14 +1034,14 @@ header nav.login-link ul li {
       max-height: 30rem;
       vertical-align: middle;
       white-space: nowrap; }
-      /* line 961, ../components/sass/_layout.scss */
+      /* line 969, ../components/sass/_layout.scss */
       .sell-anything article ul.product-icons li img {
         vertical-align: middle;
         max-height: 80px;
         max-width: 160px; }
 
 /* Get Started */
-/* line 973, ../components/sass/_layout.scss */
+/* line 981, ../components/sass/_layout.scss */
 .get-started {
   /* Rectangle 11: */
   overflow: hidden;
@@ -1042,7 +1052,7 @@ header nav.login-link ul li {
   text-align: center;
   padding: 5rem;
   margin: 0 0 6rem 0; }
-  /* line 983, ../components/sass/_layout.scss */
+  /* line 991, ../components/sass/_layout.scss */
   .get-started h1 {
     /* Ready to Get Started: */
     font-family: "Lato", sans-serif;
@@ -1052,7 +1062,7 @@ header nav.login-link ul li {
     letter-spacing: 0.85px;
     line-height: 66px;
     margin: 0 0 3rem 0; }
-  /* line 994, ../components/sass/_layout.scss */
+  /* line 1002, ../components/sass/_layout.scss */
   .get-started a {
     /* Rectangle 7: */
     background: #F38630;
@@ -1068,12 +1078,12 @@ header nav.login-link ul li {
     padding: 1rem;
     text-decoration: none;
     display: inline-block; }
-    /* line 1010, ../components/sass/_layout.scss */
+    /* line 1018, ../components/sass/_layout.scss */
     .get-started a span {
       text-transform: uppercase; }
 
 /* Footer */
-/* line 1018, ../components/sass/_layout.scss */
+/* line 1026, ../components/sass/_layout.scss */
 footer nav.social-nav {
   display: inline-block;
   overflow: hidden;
@@ -1082,17 +1092,17 @@ footer nav.social-nav {
   width: auto;
   text-align: center;
   float: right; }
-  /* line 1026, ../components/sass/_layout.scss */
+  /* line 1034, ../components/sass/_layout.scss */
   footer nav.social-nav ul h1 {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 1rem; }
-  /* line 1032, ../components/sass/_layout.scss */
+  /* line 1040, ../components/sass/_layout.scss */
   footer nav.social-nav ul li {
     float: left;
     display: block;
     margin: 0 1rem; }
-    /* line 1036, ../components/sass/_layout.scss */
+    /* line 1044, ../components/sass/_layout.scss */
     footer nav.social-nav ul li a {
       display: inline-block;
       width: auto;
@@ -1102,12 +1112,12 @@ footer nav.social-nav {
       -o-transition: color 0.4s;
       -webkit-transition: color 0.4s;
       transition: color 0.4s; }
-      /* line 1043, ../components/sass/_layout.scss */
+      /* line 1051, ../components/sass/_layout.scss */
       footer nav.social-nav ul li a:hover {
         color: #f38630; }
 
 /* Bottom nav*/
-/* line 1053, ../components/sass/_layout.scss */
+/* line 1061, ../components/sass/_layout.scss */
 nav.bottom-nav {
   overflow: hidden;
   *zoom: 1;
@@ -1116,10 +1126,10 @@ nav.bottom-nav {
   width: auto;
   margin: 1.4rem 0 0 0;
   text-align: center; }
-  /* line 1061, ../components/sass/_layout.scss */
+  /* line 1069, ../components/sass/_layout.scss */
   nav.bottom-nav ul {
     margin: 0 0 2rem 0; }
-    /* line 1064, ../components/sass/_layout.scss */
+    /* line 1072, ../components/sass/_layout.scss */
     nav.bottom-nav ul li {
       float: none;
       display: inline;
@@ -1130,10 +1140,10 @@ nav.bottom-nav {
       -o-transition: border-color 0.2s;
       -webkit-transition: border-color 0.2s;
       transition: border-color 0.2s; }
-      /* line 1072, ../components/sass/_layout.scss */
+      /* line 1080, ../components/sass/_layout.scss */
       nav.bottom-nav ul li:hover {
         border-color: #f38630; }
-      /* line 1075, ../components/sass/_layout.scss */
+      /* line 1083, ../components/sass/_layout.scss */
       nav.bottom-nav ul li a {
         font-family: "Lato", sans-serif;
         font-weight: 300;
@@ -1151,7 +1161,7 @@ nav.bottom-nav {
         -o-transition: color 0.2s;
         -webkit-transition: color 0.2s;
         transition: color 0.2s; }
-        /* line 1091, ../components/sass/_layout.scss */
+        /* line 1099, ../components/sass/_layout.scss */
         nav.bottom-nav ul li a:hover {
           color: #f38630;
           border: none; }

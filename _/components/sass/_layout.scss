@@ -769,6 +769,14 @@ header {
     margin: 0 0 4rem 0;
       text-align: center;
     } //header
+	  
+	.fallback { background: none; background-image: none; display: none; }
+	  
+	  .merchants-rely {
+		  background: url(../images/merchants-rely-on-us.png);
+         width: 20px;
+         height: 15px;
+}
     
     .wrapper {
       float: left;
