@@ -366,6 +366,10 @@
     width: 62rem; 
   }
   
+  .pricing article p {
+    width: 50%;
+  } //pricing
+  
   .fullscreen {
     article {
       h1 {
@@ -375,7 +379,7 @@
    } //fullscreen heading
   
   .tabs ul li {
-    margin: 0 4rem 0 0;
+    margin: 0 6.7rem 0 0;
   }
   
   .feature-col {
@@ -388,9 +392,36 @@
     width: 55rem; 
   }
   
+  .pricing article p {
+    width: 60%;
+  } //pricing
+  
   .hero {
     background: url(../images/shopping-medium.png) 0 0 no-repeat;
   }
+  
+  .platform {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      }
+      
+      .wrapper {
+        width: 70%;
+      } //wrapper
+      
+      p {
+        padding: 0;
+        font-size: 1.3rem;
+        line-height: 2.4rem;
+      } //paragraph
+      
+      .separator {
+        width: 15%;
+      } //separator
+      
+    } //article
+   } //platform
   
   .fullscreen {
     article {
@@ -405,7 +436,7 @@
   }
   
   .tabs ul li {
-    margin: 0 5.3rem 0 1rem;
+    margin: 0 4.3rem 0 1rem;
   }
   
   .feature-col {
@@ -419,12 +450,16 @@
     width: 50rem;
   }
   
+  .pricing article p {
+    width: 70%;
+  } //pricing
+  
   .top-nav {
     display: block;
   }
   
   .main-nav {
-    display: none;
+    display: block;
   }
   
    .fullscreen {
@@ -450,21 +485,32 @@
       }
       
       .wrapper {
-        width: 66%;
-      }
-    }
+        width: 90%;
+      } //wrapper
+      
+      p {
+        padding: 0;
+        font-size: 1.1rem;
+        line-height: 2rem;
+      } //paragraph
+      
+      .separator {
+        width: 15%;
+      } //separator
+      
+    } //article
    } //platform
   
   .sell-anything {
     article {
       ul.product-icons {
-        margin: 0 -1rem 0 -1rem;
+        margin: 0;
       }
     }
    } //sell anything
   
   .tabs ul li {
-    margin: 0 1.6rem 0 0;
+    margin: 0 4.3rem 0 0;
   }
   
   .feature-col {
@@ -475,6 +521,18 @@
 @media (max-width: 52rem) {  
    .wrap {
     width: 46rem;
+  }
+  
+  .pricing article p {
+    width: 80%;
+  } //pricing
+  
+  .pricing article div.separator {
+    width: 15%;
+  }
+  
+  .platform article div.separator {
+    width: 15%;
   }
   
   .fullscreen {
@@ -522,6 +580,22 @@
     width: 38rem;
   }
   
+  .pricing article {
+    padding: 0 5rem 5rem 5rem;
+  }
+  
+  .pricing article p {
+    width: 100%;
+  } //pricing
+  
+  .pricing article div.separator {
+    width: 15%;
+  }
+  
+  .platform article div.separator {
+    width: 15%;
+  }
+  
   .fullscreen {
     article {
       h1 {
@@ -552,17 +626,65 @@
   .wrap {
     width: 34rem;
   }
+  
+  .pricing article {
+    padding: 0 1rem 5rem 1rem;
+  }
+  
+  .pricing article p {
+    width: 100%;
+  } //pricing
+  
+  .pricing article div.separator {
+    width: 15%;
+  }
+  
+  .platform article div.separator {
+    width: 15%;
+  }
+  
+  .main-nav {
+    display: none;
+  }
 } //small devices media query
 
 @media (max-width: 34rem){
   .wrap {
     width: 30rem;
   }
+  
+  .pricing article div.separator {
+    width: 15%;
+  }
+  
+  .platform article div.separator {
+    width: 15%;
+  }
 } //small devices media query
 
 @media (max-width: 30rem){
   .wrap {
     width: 25rem;
+  }
+  
+  header nav.login-link ul li {
+    margin: 0 0 0 1rem;
+  }
+  
+  .pricing article {
+    padding: 0 1rem 5rem 1rem;
+  }
+  
+  .pricing article p {
+    width: 100%;
+  } //pricing
+  
+  .pricing article div.separator {
+    width: 15%;
+  }
+  
+  .platform article div.separator {
+    width: 15%;
   }
   
   .platform {
@@ -572,8 +694,18 @@
       }
       
       .wrapper {
-        width: 80%;
-      }
+        width: 90%;
+      } //wrapper
+      
+      p {
+        padding: 0;
+        font-size: 1.1rem;
+        line-height: 2rem;
+      } //paragraph
+      
+      .separator {
+        width: 15%;
+      } //separator
     }
    } //platform
   
@@ -614,6 +746,46 @@
     width: 22rem;
   }
   
+  .pricing article p {
+    width: 100%;
+  } //pricing
+  
+  .pricing article div.separator {
+    width: 15%;
+  }
+  
+  .platform article div.separator {
+    width: 15%;
+  }
+  
+  header {
+      nav.login-link {
+      display: block;
+
+      ul {
+
+        li {
+            
+          
+           &:nth-child(1) {
+            margin: 0 0 0 1rem;
+            padding: .5rem 0.2rem;
+            border: 1px solid $white;
+            border-radius: 3px;
+           }
+          
+            &:nth-child(2) {
+              display: none;
+            } //list first child
+            a {
+              font-size: 1rem;
+              padding: 0rem .4rem 0 .4rem;
+            } //link
+        } //li
+      } //ul
+    }
+  }
+  
   .hero {
     background: url(../images/shopping-small.png) 0 0 no-repeat;
   }
@@ -635,6 +807,10 @@
         margin: 1rem 0;
         padding: 0;
       } //paragraph
+      
+      .separator {
+        width: 15%;
+      } //separator
     } //article
    } //platform
   
@@ -677,12 +853,32 @@
         font-size: 1.7rem;
       } //h1 heading
    } //get started
+  
+  nav.bottom-nav {
+    float: none;
+  }
+  
+  nav.bottom-nav ul li a {
+    margin: 0 0rem 0 2rem;
+  }
+  
+  footer nav.social-nav {
+    float: none;
+  } //social navigation
 } // smallest width
 
 // Smallest common viewport ----------------------
 @media (max-width: 20rem) {
  .wrap {
     width: 19rem;
+  }
+  
+  .pricing article p {
+    width: 100%;
+  } //pricing
+  
+  .pricing article div.separator {
+    width: 15%;
   }
   
   header {
@@ -702,9 +898,41 @@
     }
   }
   
+  .platform {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      }
+      
+      .wrapper {
+        width: 90%;
+      } //wrapper
+      
+      p {
+        font-size: 1.1rem;
+        letter-spacing: 0.1px;
+        line-height: 1.8rem;
+        margin: 1rem 0;
+        padding: 0;
+      } //paragraph
+      
+      .separator {
+        width: 15%;
+      } //separator
+    } //article
+   } //platform
+  
   nav.bottom-nav {
     float: none;
   }
+  
+  nav.bottom-nav ul li a {
+    margin: 0 0rem 0 2rem;
+  }
+  
+  footer nav.social-nav {
+    float: none;
+  } //social navigation
   
   footer {
       nav.social-nav {
@@ -720,9 +948,53 @@
     width: 12rem;
   }
   
+  .pricing article p {
+    width: 100%;
+  } //pricing
+  
+  .pricing article div.separator {
+    width: 15%;
+  }
+  
+  .platform {
+    article {
+      h1 {
+        font-size: 2.3rem;
+      }
+      
+      .wrapper {
+        width: 90%;
+      } //wrapper
+      
+      p {
+        font-size: 1.1rem;
+        letter-spacing: 0.1px;
+        line-height: 1.8rem;
+        margin: 1rem 0;
+        padding: 0;
+      } //paragraph
+      
+      .separator {
+        width: 15%;
+      } //separator
+    } //article
+   } //platform
+  
   nav.login-link {
     display: block;
   }
+  
+  nav.bottom-nav {
+    float: none;
+  }
+  
+  nav.bottom-nav ul li a {
+    margin: 0 0rem 0 2rem;
+  }
+  
+  footer nav.social-nav {
+    float: none;
+  } //social navigation
 
 } // smallest width
 

@@ -1707,246 +1707,479 @@ footer {
   .wrap {
     width: 62rem; }
 
-  /* line 371, ../components/sass/_responsive.scss */
+  /* line 369, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 50%; }
+
+  /* line 375, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     width: 60%; }
 
-  /* line 377, ../components/sass/_responsive.scss */
-  .tabs ul li {
-    margin: 0 4rem 0 0; }
-
   /* line 381, ../components/sass/_responsive.scss */
+  .tabs ul li {
+    margin: 0 6.7rem 0 0; }
+
+  /* line 385, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 65rem) {
-  /* line 387, ../components/sass/_responsive.scss */
+  /* line 391, ../components/sass/_responsive.scss */
   .wrap {
     width: 55rem; }
 
-  /* line 391, ../components/sass/_responsive.scss */
+  /* line 395, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 60%; }
+
+  /* line 399, ../components/sass/_responsive.scss */
   .hero {
     background: url(../images/shopping-medium.png) 0 0 no-repeat; }
 
-  /* line 397, ../components/sass/_responsive.scss */
+  /* line 405, ../components/sass/_responsive.scss */
+  .platform article h1 {
+    font-size: 2.3rem; }
+  /* line 409, ../components/sass/_responsive.scss */
+  .platform article .wrapper {
+    width: 70%; }
+  /* line 413, ../components/sass/_responsive.scss */
+  .platform article p {
+    padding: 0;
+    font-size: 1.3rem;
+    line-height: 2.4rem; }
+  /* line 419, ../components/sass/_responsive.scss */
+  .platform article .separator {
+    width: 15%; }
+
+  /* line 428, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     width: 70%; }
 
-  /* line 403, ../components/sass/_responsive.scss */
+  /* line 434, ../components/sass/_responsive.scss */
   .top-nav {
     display: none; }
 
-  /* line 407, ../components/sass/_responsive.scss */
+  /* line 438, ../components/sass/_responsive.scss */
   .tabs ul li {
-    margin: 0 5.3rem 0 1rem; }
+    margin: 0 4.3rem 0 1rem; }
 
-  /* line 411, ../components/sass/_responsive.scss */
+  /* line 442, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 58rem) {
-  /* line 418, ../components/sass/_responsive.scss */
+  /* line 449, ../components/sass/_responsive.scss */
   .wrap {
     width: 50rem; }
 
-  /* line 422, ../components/sass/_responsive.scss */
+  /* line 453, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 70%; }
+
+  /* line 457, ../components/sass/_responsive.scss */
   .top-nav {
     display: block; }
 
-  /* line 426, ../components/sass/_responsive.scss */
+  /* line 461, ../components/sass/_responsive.scss */
   .main-nav {
-    display: none; }
+    display: block; }
 
-  /* line 432, ../components/sass/_responsive.scss */
+  /* line 467, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     font-size: 3.5rem;
     width: 50%;
     margin: 1rem auto 0 auto; }
-  /* line 438, ../components/sass/_responsive.scss */
+  /* line 473, ../components/sass/_responsive.scss */
   .fullscreen article p {
     font-size: 1.1rem;
     width: 80%;
     margin: 1rem auto 8rem auto; }
 
-  /* line 448, ../components/sass/_responsive.scss */
+  /* line 483, ../components/sass/_responsive.scss */
   .platform article h1 {
     font-size: 2.3rem; }
-  /* line 452, ../components/sass/_responsive.scss */
+  /* line 487, ../components/sass/_responsive.scss */
   .platform article .wrapper {
-    width: 66%; }
+    width: 90%; }
+  /* line 491, ../components/sass/_responsive.scss */
+  .platform article p {
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 2rem; }
+  /* line 497, ../components/sass/_responsive.scss */
+  .platform article .separator {
+    width: 15%; }
 
-  /* line 460, ../components/sass/_responsive.scss */
+  /* line 506, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
-    margin: 0 -1rem 0 -1rem; }
+    margin: 0; }
 
-  /* line 466, ../components/sass/_responsive.scss */
+  /* line 512, ../components/sass/_responsive.scss */
   .tabs ul li {
-    margin: 0 1.6rem 0 0; }
+    margin: 0 4.3rem 0 0; }
 
-  /* line 470, ../components/sass/_responsive.scss */
+  /* line 516, ../components/sass/_responsive.scss */
   .feature-col {
     display: none; } }
 @media (max-width: 52rem) {
-  /* line 476, ../components/sass/_responsive.scss */
+  /* line 522, ../components/sass/_responsive.scss */
   .wrap {
     width: 46rem; }
 
-  /* line 482, ../components/sass/_responsive.scss */
+  /* line 526, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 80%; }
+
+  /* line 530, ../components/sass/_responsive.scss */
+  .pricing article div.separator {
+    width: 15%; }
+
+  /* line 534, ../components/sass/_responsive.scss */
+  .platform article div.separator {
+    width: 15%; }
+
+  /* line 540, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     font-size: 3rem; }
 
-  /* line 488, ../components/sass/_responsive.scss */
+  /* line 546, ../components/sass/_responsive.scss */
   .feature-tabs {
     display: none; }
 
-  /* line 493, ../components/sass/_responsive.scss */
+  /* line 551, ../components/sass/_responsive.scss */
   .features article.feature-col {
     display: block;
     padding: 0; }
-    /* line 497, ../components/sass/_responsive.scss */
+    /* line 555, ../components/sass/_responsive.scss */
     .features article.feature-col ul li {
       overflow: hidden;
       *zoom: 1;
       display: block;
       margin: 0 0 6rem 0; }
-      /* line 502, ../components/sass/_responsive.scss */
+      /* line 560, ../components/sass/_responsive.scss */
       .features article.feature-col ul li h2 {
         color: rgba(75, 91, 102, 0.85);
         font-family: "Lato", sans-serif;
         font-weight: 500;
         font-size: 1.3rem;
         letter-spacing: 0.05rem; }
-      /* line 510, ../components/sass/_responsive.scss */
+      /* line 568, ../components/sass/_responsive.scss */
       .features article.feature-col ul li p {
         width: 100%;
         padding: 0; } }
 @media (max-width: 46rem) {
-  /* line 521, ../components/sass/_responsive.scss */
+  /* line 579, ../components/sass/_responsive.scss */
   .wrap {
     width: 38rem; }
 
-  /* line 527, ../components/sass/_responsive.scss */
+  /* line 583, ../components/sass/_responsive.scss */
+  .pricing article {
+    padding: 0 5rem 5rem 5rem; }
+
+  /* line 587, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 100%; }
+
+  /* line 591, ../components/sass/_responsive.scss */
+  .pricing article div.separator {
+    width: 15%; }
+
+  /* line 595, ../components/sass/_responsive.scss */
+  .platform article div.separator {
+    width: 15%; }
+
+  /* line 601, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
     font-size: 2.5rem;
     width: 80%; }
 
-  /* line 536, ../components/sass/_responsive.scss */
+  /* line 610, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
     margin: 0; }
-    /* line 538, ../components/sass/_responsive.scss */
+    /* line 612, ../components/sass/_responsive.scss */
     .sell-anything article ul.product-icons li {
       width: 24%; }
-      /* line 541, ../components/sass/_responsive.scss */
+      /* line 615, ../components/sass/_responsive.scss */
       .sell-anything article ul.product-icons li img {
         max-width: 110px; } }
 @media (max-width: 38rem) {
-  /* line 552, ../components/sass/_responsive.scss */
+  /* line 626, ../components/sass/_responsive.scss */
   .wrap {
-    width: 34rem; } }
+    width: 34rem; }
+
+  /* line 630, ../components/sass/_responsive.scss */
+  .pricing article {
+    padding: 0 1rem 5rem 1rem; }
+
+  /* line 634, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 100%; }
+
+  /* line 638, ../components/sass/_responsive.scss */
+  .pricing article div.separator {
+    width: 15%; }
+
+  /* line 642, ../components/sass/_responsive.scss */
+  .platform article div.separator {
+    width: 15%; }
+
+  /* line 646, ../components/sass/_responsive.scss */
+  .main-nav {
+    display: none; } }
 @media (max-width: 34rem) {
-  /* line 558, ../components/sass/_responsive.scss */
+  /* line 652, ../components/sass/_responsive.scss */
   .wrap {
-    width: 30rem; } }
+    width: 30rem; }
+
+  /* line 656, ../components/sass/_responsive.scss */
+  .pricing article div.separator {
+    width: 15%; }
+
+  /* line 660, ../components/sass/_responsive.scss */
+  .platform article div.separator {
+    width: 15%; } }
 @media (max-width: 30rem) {
-  /* line 564, ../components/sass/_responsive.scss */
+  /* line 666, ../components/sass/_responsive.scss */
   .wrap {
     width: 25rem; }
 
-  /* line 570, ../components/sass/_responsive.scss */
+  /* line 670, ../components/sass/_responsive.scss */
+  header nav.login-link ul li {
+    margin: 0 0 0 1rem; }
+
+  /* line 674, ../components/sass/_responsive.scss */
+  .pricing article {
+    padding: 0 1rem 5rem 1rem; }
+
+  /* line 678, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 100%; }
+
+  /* line 682, ../components/sass/_responsive.scss */
+  .pricing article div.separator {
+    width: 15%; }
+
+  /* line 686, ../components/sass/_responsive.scss */
+  .platform article div.separator {
+    width: 15%; }
+
+  /* line 692, ../components/sass/_responsive.scss */
   .platform article h1 {
     font-size: 2.3rem; }
-  /* line 574, ../components/sass/_responsive.scss */
+  /* line 696, ../components/sass/_responsive.scss */
   .platform article .wrapper {
-    width: 80%; }
+    width: 90%; }
+  /* line 700, ../components/sass/_responsive.scss */
+  .platform article p {
+    padding: 0;
+    font-size: 1.1rem;
+    line-height: 2rem; }
+  /* line 706, ../components/sass/_responsive.scss */
+  .platform article .separator {
+    width: 15%; }
 
-  /* line 582, ../components/sass/_responsive.scss */
+  /* line 714, ../components/sass/_responsive.scss */
   .features article h1 {
     font-size: 2.3rem; }
 
-  /* line 590, ../components/sass/_responsive.scss */
+  /* line 722, ../components/sass/_responsive.scss */
   .merchants article h1 {
     font-size: 2.3rem; }
 
-  /* line 598, ../components/sass/_responsive.scss */
+  /* line 730, ../components/sass/_responsive.scss */
   .sell-anything article h1 {
     font-size: 2.3rem; }
 
-  /* line 605, ../components/sass/_responsive.scss */
+  /* line 737, ../components/sass/_responsive.scss */
   .get-started h1 {
     font-size: 2rem; } }
 @media (max-width: 25rem) {
-  /* line 613, ../components/sass/_responsive.scss */
+  /* line 745, ../components/sass/_responsive.scss */
   .wrap {
     width: 22rem; }
 
-  /* line 617, ../components/sass/_responsive.scss */
+  /* line 749, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 100%; }
+
+  /* line 753, ../components/sass/_responsive.scss */
+  .pricing article div.separator {
+    width: 15%; }
+
+  /* line 757, ../components/sass/_responsive.scss */
+  .platform article div.separator {
+    width: 15%; }
+
+  /* line 762, ../components/sass/_responsive.scss */
+  header nav.login-link {
+    display: block; }
+    /* line 770, ../components/sass/_responsive.scss */
+    header nav.login-link ul li:nth-child(1) {
+      margin: 0 0 0 1rem;
+      padding: .5rem 0.2rem;
+      border: 1px solid #ffffff;
+      border-radius: 3px; }
+    /* line 777, ../components/sass/_responsive.scss */
+    header nav.login-link ul li:nth-child(2) {
+      display: none; }
+    /* line 780, ../components/sass/_responsive.scss */
+    header nav.login-link ul li a {
+      font-size: 1rem;
+      padding: 0rem .4rem 0 .4rem; }
+
+  /* line 789, ../components/sass/_responsive.scss */
   .hero {
     background: url(../images/shopping-small.png) 0 0 no-repeat; }
 
-  /* line 623, ../components/sass/_responsive.scss */
+  /* line 795, ../components/sass/_responsive.scss */
   .platform article h1 {
     font-size: 2.3rem; }
-  /* line 627, ../components/sass/_responsive.scss */
+  /* line 799, ../components/sass/_responsive.scss */
   .platform article .wrapper {
     width: 90%; }
-  /* line 631, ../components/sass/_responsive.scss */
+  /* line 803, ../components/sass/_responsive.scss */
   .platform article p {
     font-size: 1.1rem;
     letter-spacing: 0.1px;
     line-height: 1.8rem;
     margin: 1rem 0;
     padding: 0; }
+  /* line 811, ../components/sass/_responsive.scss */
+  .platform article .separator {
+    width: 15%; }
 
-  /* line 643, ../components/sass/_responsive.scss */
+  /* line 819, ../components/sass/_responsive.scss */
   .merchants article h1 {
     font-size: 2.3rem; }
 
-  /* line 651, ../components/sass/_responsive.scss */
+  /* line 827, ../components/sass/_responsive.scss */
   .features article h1 {
     font-size: 2.3rem; }
 
-  /* line 659, ../components/sass/_responsive.scss */
+  /* line 835, ../components/sass/_responsive.scss */
   .sell-anything article h1 {
     font-size: 2.3rem; }
-  /* line 663, ../components/sass/_responsive.scss */
+  /* line 839, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
     margin: 0 0rem; }
-    /* line 665, ../components/sass/_responsive.scss */
+    /* line 841, ../components/sass/_responsive.scss */
     .sell-anything article ul.product-icons li {
       width: 48%; }
-      /* line 667, ../components/sass/_responsive.scss */
+      /* line 843, ../components/sass/_responsive.scss */
       .sell-anything article ul.product-icons li img {
         max-width: 50px; }
 
-  /* line 676, ../components/sass/_responsive.scss */
+  /* line 852, ../components/sass/_responsive.scss */
   .get-started h1 {
-    font-size: 1.7rem; } }
+    font-size: 1.7rem; }
+
+  /* line 857, ../components/sass/_responsive.scss */
+  nav.bottom-nav {
+    float: none; }
+
+  /* line 861, ../components/sass/_responsive.scss */
+  nav.bottom-nav ul li a {
+    margin: 0 0rem 0 2rem; }
+
+  /* line 865, ../components/sass/_responsive.scss */
+  footer nav.social-nav {
+    float: none; } }
 @media (max-width: 20rem) {
-  /* line 684, ../components/sass/_responsive.scss */
+  /* line 872, ../components/sass/_responsive.scss */
   .wrap {
     width: 19rem; }
 
-  /* line 689, ../components/sass/_responsive.scss */
+  /* line 876, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 100%; }
+
+  /* line 880, ../components/sass/_responsive.scss */
+  .pricing article div.separator {
+    width: 15%; }
+
+  /* line 885, ../components/sass/_responsive.scss */
   header nav.login-link {
     display: block; }
-    /* line 694, ../components/sass/_responsive.scss */
+    /* line 890, ../components/sass/_responsive.scss */
     header nav.login-link ul li {
       margin: 0 0 0 1.2rem; }
-      /* line 696, ../components/sass/_responsive.scss */
+      /* line 892, ../components/sass/_responsive.scss */
       header nav.login-link ul li a {
         font-size: 1rem;
         padding: 0.5rem; }
 
-  /* line 705, ../components/sass/_responsive.scss */
+  /* line 903, ../components/sass/_responsive.scss */
+  .platform article h1 {
+    font-size: 2.3rem; }
+  /* line 907, ../components/sass/_responsive.scss */
+  .platform article .wrapper {
+    width: 90%; }
+  /* line 911, ../components/sass/_responsive.scss */
+  .platform article p {
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+    line-height: 1.8rem;
+    margin: 1rem 0;
+    padding: 0; }
+  /* line 919, ../components/sass/_responsive.scss */
+  .platform article .separator {
+    width: 15%; }
+
+  /* line 925, ../components/sass/_responsive.scss */
   nav.bottom-nav {
     float: none; }
 
-  /* line 710, ../components/sass/_responsive.scss */
+  /* line 929, ../components/sass/_responsive.scss */
+  nav.bottom-nav ul li a {
+    margin: 0 0rem 0 2rem; }
+
+  /* line 933, ../components/sass/_responsive.scss */
+  footer nav.social-nav {
+    float: none; }
+
+  /* line 938, ../components/sass/_responsive.scss */
   footer nav.social-nav {
     float: none; } }
 @media (max-width: 15rem) {
-  /* line 719, ../components/sass/_responsive.scss */
+  /* line 947, ../components/sass/_responsive.scss */
   .wrap {
     width: 12rem; }
 
-  /* line 723, ../components/sass/_responsive.scss */
+  /* line 951, ../components/sass/_responsive.scss */
+  .pricing article p {
+    width: 100%; }
+
+  /* line 955, ../components/sass/_responsive.scss */
+  .pricing article div.separator {
+    width: 15%; }
+
+  /* line 961, ../components/sass/_responsive.scss */
+  .platform article h1 {
+    font-size: 2.3rem; }
+  /* line 965, ../components/sass/_responsive.scss */
+  .platform article .wrapper {
+    width: 90%; }
+  /* line 969, ../components/sass/_responsive.scss */
+  .platform article p {
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+    line-height: 1.8rem;
+    margin: 1rem 0;
+    padding: 0; }
+  /* line 977, ../components/sass/_responsive.scss */
+  .platform article .separator {
+    width: 15%; }
+
+  /* line 983, ../components/sass/_responsive.scss */
   nav.login-link {
-    display: block; } }
+    display: block; }
+
+  /* line 987, ../components/sass/_responsive.scss */
+  nav.bottom-nav {
+    float: none; }
+
+  /* line 991, ../components/sass/_responsive.scss */
+  nav.bottom-nav ul li a {
+    margin: 0 0rem 0 2rem; }
+
+  /* line 995, ../components/sass/_responsive.scss */
+  footer nav.social-nav {
+    float: none; } }
