@@ -381,7 +381,7 @@
    } //fullscreen heading
   
   .tabs ul li {
-    margin: 0 6.7rem 0 0;
+    margin: 0 6.6rem 0 0;
   }
   
   .feature-col {
@@ -438,7 +438,7 @@
   }
   
   .tabs ul li {
-    margin: 0 4.3rem 0 1rem;
+    margin: 0 5.2rem 0 0;
   }
   
   .feature-col {
@@ -513,7 +513,7 @@
    } //sell anything
   
   .tabs ul li {
-    margin: 0 4.3rem 0 0;
+    margin: 0 4.2rem 0 0;
   }
   
   .feature-col {
@@ -554,6 +554,7 @@
     article.feature-col {
       display: block;
       padding: 0;
+      border-bottom: 1px solid $border-color;
         ul {
           li {
             @include clearfix;
@@ -561,16 +562,17 @@
             margin: 0 0 6rem 0;
 
             h2 {
-             color: rgba(75, 91, 102, 0.85);
+              padding: 0 0 1.5rem 0;
+              color: rgba(75, 91, 102, 0.85);
               font-family: $font-secondary;
               font-weight: 500;
-              font-size: 1.3rem;
+              font-size: 1.4rem;
               letter-spacing: 0.05rem;
             } //h2 heading
 
             p {
               width: 100%;
-              padding: 0;
+              padding: 0 0 2rem 0;
             } //paragraph
           } //li
         } //ul 
@@ -584,7 +586,7 @@
   }
   
   .pricing article {
-    padding: 0 5rem 5rem 5rem;
+    padding: 0 ;
   }
   
   .pricing article p {
@@ -603,10 +605,14 @@
     article {
       h1 {
         font-size: 2.5rem;
-        width: 80%;
+        width: 70%;
       }
     }
    } //fullscreen heading
+  
+  .get-started h1 {
+    font-size: 2rem;
+  }
   
   .sell-anything {
     article {
@@ -632,7 +638,7 @@
   }
   
   .pricing article {
-    padding: 0 1rem 5rem 1rem;
+    padding: 0 1rem 0rem 1rem;
   }
   
   .pricing article p {
@@ -676,7 +682,7 @@
   }
   
   .pricing article {
-    padding: 0 1rem 5rem 1rem;
+    padding: 0 1rem 0rem 1rem;
   }
   
   .pricing article p {
