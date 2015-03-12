@@ -17,10 +17,10 @@
   .sell-anything {
     article {
       ul.product-icons {
-        margin: 0 32rem;
+        margin: 0 3rem;
         
         li {
-          width: 13%;
+          width: 11%;
         } //li
       } //ul
     } //article
@@ -31,18 +31,19 @@
   }
   
   .pricing article p {
-    width: 20%;
+    width: 40%;
+    line-height: 1.6rem;
   } //pricing
   
   .tabs ul li {
-    margin: 0 8.7rem 0 0rem;
+    margin: 0 8.6rem 0 0rem;
   }
   
   .platform {
     article {
       
       .wrapper {
-        width: 32%;
+        width: 52%;
       } //wrapper
       p {
         padding: 0;
@@ -70,10 +71,10 @@
   .sell-anything {
     article {
       ul.product-icons {
-        margin: 0 32rem;
+        margin: 0 3rem;
         
         li {
-          width: 13%;
+          width: 14%;
         } //li
       } //ul
     } //article
@@ -84,18 +85,19 @@
   }
   
   .pricing article p {
-    width: 20%;
+    width: 100%;
+    line-height: 1.6rem;
   } //pricing
   
   .tabs ul li {
-    margin: 0 8.7rem 0 0rem;
+    margin: 0 8.5rem 0 0rem;
   }
   
   .platform {
     article {
       
       .wrapper {
-        width: 32%;
+        width: 52%;
       } //wrapper
       p {
         padding: 0;
@@ -123,10 +125,10 @@
   .sell-anything {
     article {
       ul.product-icons {
-        margin: 0 32rem;
+        margin: 0 5rem;
         
         li {
-          width: 13%;
+          width: 14%;
         } //li
       } //ul
     } //article
@@ -137,18 +139,18 @@
   }
   
   .pricing article p {
-    width: 20%;
+    width: 40%;
   } //pricing
   
   .tabs ul li {
-    margin: 0 8.2rem 0 0rem;
+    margin: 0 8.1rem 0 0rem;
   }
   
   .platform {
     article {
       
       .wrapper {
-        width: 32%;
+        width: 64%;
       } //wrapper
       p {
         padding: 0;
@@ -176,10 +178,10 @@
   .sell-anything {
     article {
       ul.product-icons {
-        margin: 0 24rem;
+        margin: 0 5rem;
         
         li {
-          width: 13%;
+          width: 14%;
         } //li
       } //ul
     } //article
@@ -197,7 +199,7 @@
     article {
       
       .wrapper {
-        width: 32%;
+        width: 72%;
       } //wrapper
       p {
         padding: 0;
@@ -225,10 +227,10 @@
   .sell-anything {
     article {
       ul.product-icons {
-        margin: 0 24rem;
+        margin: 0 5rem;
         
         li {
-          width: 13%;
+          width: 14%;
         } //li
       } //ul
     } //article
@@ -239,14 +241,14 @@
   }
   
   .pricing article p {
-    width: 27%;
+    width: 50%;
   } //pricing
   
   .platform {
     article {
       
       .wrapper {
-        width: 42%;
+        width: 72%;
       } //wrapper
       p {
         padding: 0;
@@ -274,10 +276,10 @@
   .sell-anything {
     article {
       ul.product-icons {
-        margin: 0 14rem;
+        margin: 0 4rem;
         
         li {
-          width: 13%;
+          width: 14%;
         } //li
       } //ul
     } //article
@@ -288,14 +290,14 @@
   }
   
   .pricing article p {
-    width: 30%;
+    width: 50%;
   } //pricing
   
   .platform {
     article {
       
       .wrapper {
-        width: 50%;
+        width: 80%;
       } //wrapper
       p {
         padding: 0;
@@ -335,14 +337,14 @@
   }
   
   .pricing article p {
-    width: 40%;
+    width: 50%;
   } //pricing
   
   .platform {
     article {
       
       .wrapper {
-        width: 50%;
+        width: 75%;
       } //wrapper
       p {
         padding: 0;
@@ -504,7 +506,8 @@
   .sell-anything {
     article {
       ul.product-icons {
-        margin: 0;
+        margin: 0 0rem 0 -0.5rem;
+        width: 119%;
       }
     }
    } //sell anything
@@ -609,8 +612,9 @@
     article {
       ul.product-icons {
         margin: 0;
+        width: 100%;
         li {
-          width: 24%;
+          width: 32%;
           
           img {
             max-width: 110px;

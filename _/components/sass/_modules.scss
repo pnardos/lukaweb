@@ -17,7 +17,7 @@ header {
 /* footer */
 footer {
     text-align: center;
-    margin: 0 0 2rem 0;
+    margin: 5rem 0 3rem 0;
     p {
         @include clearfix;
         font-family: $font-secondary;
@@ -49,7 +49,7 @@ footer {
 .tabs ul li {
     float:left;
     width:auto;
-    margin: 0 7.5rem 0 0rem;
+    margin: 0 7.4rem 0 0rem;
 }
 
 .tabs ul li:last-child {
@@ -124,7 +124,7 @@ footer {
 .content {
     box-shadow: none;
     border-top: 1px solid $border-color;
-    height:500px;
+    height:530px;
     padding-top:50px;
     position:relative;
     top:0px;
