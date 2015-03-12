@@ -753,8 +753,8 @@ header nav.login-link ul li {
       color: #ffffff;
       letter-spacing: 0.03rem;
       line-height: 2rem;
-      width: 50%;
-      margin: 0 auto 8rem auto; }
+      width: 35%;
+      margin: 2rem auto; }
     /* line 665, ../components/sass/_layout.scss */
     .fullscreen article a {
       text-decoration: none;
@@ -874,7 +874,7 @@ header nav.login-link ul li {
       display: inline-block;
       position: relative;
       margin: 0 auto;
-      width: 100%;
+      width: 54%;
       /* Required to make image fluid in IE */ }
       /* line 791, ../components/sass/_layout.scss */
       .merchants article .svg-container object {
@@ -1344,7 +1344,7 @@ footer {
 .content {
   box-shadow: none;
   border-top: 1px solid #EBEBEB;
-  height: 530px;
+  height: auto;
   padding-top: 50px;
   position: relative;
   top: 0px;
@@ -1571,7 +1571,7 @@ footer {
     width: 26%; }
   /* line 119, ../components/sass/_responsive.scss */
   .fullscreen article p {
-    width: 25%; }
+    width: 18%; }
 
   /* line 127, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
@@ -1605,10 +1605,10 @@ footer {
 
   /* line 169, ../components/sass/_responsive.scss */
   .fullscreen article h1 {
-    width: 26%; }
+    width: 32%; }
   /* line 172, ../components/sass/_responsive.scss */
   .fullscreen article p {
-    width: 25%; }
+    width: 24%; }
 
   /* line 180, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
@@ -1623,7 +1623,7 @@ footer {
 
   /* line 194, ../components/sass/_responsive.scss */
   .pricing article p {
-    width: 27%; }
+    width: 45%; }
 
   /* line 201, ../components/sass/_responsive.scss */
   .platform article .wrapper {
@@ -1674,7 +1674,7 @@ footer {
     width: 38%; }
   /* line 270, ../components/sass/_responsive.scss */
   .fullscreen article p {
-    width: 30%; }
+    width: 25%; }
 
   /* line 278, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons {
@@ -1707,7 +1707,7 @@ footer {
     width: 46%; }
   /* line 319, ../components/sass/_responsive.scss */
   .fullscreen article p {
-    width: 40%; }
+    width: 30%; }
 
   /* line 328, ../components/sass/_responsive.scss */
   .sell-anything article ul.product-icons li {
