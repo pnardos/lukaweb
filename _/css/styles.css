@@ -762,7 +762,7 @@ header nav.login-link ul li {
       top: auto;
       left: auto;
       right: auto;
-      bottom: 12rem;
+      bottom: 12.5rem;
       color: #ffffff;
       border-radius: 5rem;
       /* Sign up free: */
@@ -1823,7 +1823,7 @@ footer {
   /* line 475, ../components/sass/_responsive.scss */
   .fullscreen article p {
     font-size: 1.1rem;
-    width: 80%;
+    width: 70%;
     margin: 1rem auto 8rem auto; }
 
   /* line 485, ../components/sass/_responsive.scss */
